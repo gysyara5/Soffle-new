@@ -156,25 +156,26 @@ __webpack_require__.r(__webpack_exports__);
 swiper__WEBPACK_IMPORTED_MODULE_0__["default"].use([swiper__WEBPACK_IMPORTED_MODULE_0__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_0__.Scrollbar]);
 document.addEventListener("DOMContentLoaded", () => {
   const faqSection = document.querySelector(".faq");
-  if (!faqSection) return;
-  document.querySelectorAll(".faq__question").forEach(button => {
-    button.addEventListener("click", function () {
-      const answer = this.nextElementSibling;
-      const icon = this.querySelector(".faq__icon");
-      if (answer.style.maxHeight) {
-        answer.style.maxHeight = null;
-        icon.textContent = "+";
-        this.classList.remove("active");
-      } else {
-        document.querySelectorAll(".faq__answer").forEach(a => a.style.maxHeight = null);
-        document.querySelectorAll(".faq__icon").forEach(i => i.textContent = "+");
-        document.querySelectorAll(".faq__question").forEach(q => q.classList.remove("active"));
-        answer.style.maxHeight = answer.scrollHeight + "px";
-        icon.textContent = "-";
-        this.classList.add("active");
-      }
+  if (faqSection) {
+    document.querySelectorAll(".faq__question").forEach(button => {
+      button.addEventListener("click", function () {
+        const answer = this.nextElementSibling;
+        const icon = this.querySelector(".faq__icon");
+        if (answer.style.maxHeight) {
+          answer.style.maxHeight = null;
+          icon.textContent = "+";
+          this.classList.remove("active");
+        } else {
+          document.querySelectorAll(".faq__answer").forEach(a => a.style.maxHeight = null);
+          document.querySelectorAll(".faq__icon").forEach(i => i.textContent = "+");
+          document.querySelectorAll(".faq__question").forEach(q => q.classList.remove("active"));
+          answer.style.maxHeight = answer.scrollHeight + "px";
+          icon.textContent = "-";
+          this.classList.add("active");
+        }
+      });
     });
-  });
+  }
   if (document.querySelector(".hero__swiper")) {
     const heroSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".hero__swiper", {
       direction: "horizontal",
