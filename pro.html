@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>Soffle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Unbounded:wght@200..900&display=swap"
+    rel="stylesheet"
+  />
+
+
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.2.3/dist/lenis.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script defer src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
+
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+
+  <body class="page__body white">
+    <div class="site-container">
+      <header class="header">
+  <div class="container">
+    <div class="header__navigation">
+      <a href="./index.html" class="header__logo"
+        ><img src="./img/logo.svg" alt="logo" class="logo"
+      /></a>
+      <a href="./index.html" class="header__logo white"
+        ><img src="./img/logo-for-white.svg" alt="logo" class="logo"
+      /></a>
+      <nav class="menu" data-menu>
+        <ul class="menu__list list-reset">
+          <li class="menu__item">
+            <a href="/pro.html" class="menu__link">pro</a>
+          </li>
+          <li class="menu__item"><a href="#" class="menu__link">org</a></li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">partners</a>
+          </li>
+        </ul>
+        <a href="#" class="header__user user-account mobile"
+          ><img src="./img/User's account.svg" alt="" /><img
+            src="./img/user-icon.svg"
+            alt=""
+        /></a>
+      </nav>
+      <div class="custom-select">
+        <div class="selected-option">
+          <span class="selected-text">RU</span>
+          <span class="arrow"
+            ><svg
+              width="13"
+              height="7"
+              viewBox="0 0 13 7"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.416 1.25L6.16602 5.75L0.916016 1.25"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div class="options-container">
+          <label class="custom-option">
+            <input type="radio" name="language" value="en" />
+            <span class="custom-option-text">EN</span>
+          </label>
+          <label class="custom-option">
+            <input type="radio" name="language" value="ar" />
+            <span class="custom-option-text">AR</span>
+          </label>
+        </div>
+      </div>
+      <a href="#" class="header__user user-account"
+        ><img src="./img/User's account.svg" alt="" /><img
+          src="./img/user-icon.svg"
+          alt=""
+      /></a>
+      <button
+        class="burger"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        data-burger
+      >
+        <img src="./img/right-arrow.svg" alt="" />
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+      <main class="main">
+        <section class="showcase-pro">
+          <div class="container">
+            <div class="showcase-pro__content">
+              <div class="showcase-pro__content-item blue">
+                <div class="showcase-pro__content-item-wrapper">
+                  <div class="showcase-pro__content-item-bg">
+                    <img src="./img/showcase-blue-lines.png" alt="" />
+                  </div>
+                  <div class="showcase-pro__content-item-text">
+                    <h3 class="showcase-pro__content-item-title">
+                      Be the PRO user Create and push up your events
+                    </h3>
+                    <p class="showcase-pro__content-item-desc">
+                      Let people meet and chat at your events with a unique
+                      rotation
+                    </p>
+                    <a href="#" class="showcase-pro__content-item-link user-account">Consultation</a>
+                  </div>
+                  <div class="showcase-pro__content-item-img">
+                    <img src="./img/showcase-blue-dance.png" alt="" />
+                    <div class="showcase-pro__content-item-improve first">
+                      <span class="showcase-pro__content-item-improve-num"
+                        >1</span
+                      >
+                      <span class="showcase-pro__content-item-improve-desc"
+                        >Improve your <span>attendance</span> and earn money and
+                        crypt</span
+                      >
+                    </div>
+                    <div class="showcase-pro__content-item-improve second">
+                      <span class="showcase-pro__content-item-improve-num"
+                        >2</span
+                      >
+                      <span class="showcase-pro__content-item-improve-desc"
+                        ><span class="c-yellow">Your events</span> are in a
+                        unique rotation</span
+                      >
+                    </div>
+                    <div class="showcase-pro__content-item-improve third">
+                      <span class="showcase-pro__content-item-improve-num"
+                        >3</span
+                      >
+                      <span class="showcase-pro__content-item-improve-desc"
+                        >Your new clients are here</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase-pro__content-item pink">
+                <div class="showcase-pro__content-item-wrapper">
+                  <div class="showcase-pro__content-item-bg">
+                    <img src="./img/showcase-pro-pink-lines.png" alt="" />
+                  </div>
+                  <div class="showcase-pro__content-item-text">
+                    <h3 class="showcase-pro__content-item-title">
+                      Full study of the problem NO SHOWS
+                    </h3>
+                    <p class="showcase-pro__content-item-desc">
+                      A unique portfolio of tools that allows you to <span>increase an attendance</span>
+                    </p>
+                  </div>
+                  <div class="showcase-pro__content-item-cards">
+                    <div class="showcase-pro__content-item-card">
+                    <div class="showcase-pro__content-item-card-text">
+                      <span class="dark">No shows</span>
+                      <span class="gray">Total</span>
+                    </div>
+                    <div class="showcase-pro__content-item-card-value">
+
+                      <span class="showcase-pro__content-item-card-num">12%</span>
+                      <div class="showcase-pro__content-item-card-bar"><div class="showcase-pro__content-item-card-bar-progress"></div></div>
+                    </div>
+                    </div>
+                    <div class="showcase-pro__content-item-card">
+                      <div class="showcase-pro__content-item-card-text">
+                        <span class="dark">Show up</span>
+                        <span class="gray">Total</span>
+                      </div>
+                      <div class="showcase-pro__content-item-card-value showup">
+
+                        <span class="showcase-pro__content-item-card-num">93%</span>
+                        <div class="showcase-pro__content-item-card-bar"><div class="showcase-pro__content-item-card-bar-progress"></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase-pro__content-item yellow">
+                <div class="showcase-pro__content-item-wrapper">
+                  <div class="showcase-pro__content-item-bg">
+                    <img src="./img/showcase-pro-yellow-lines.png" alt="" />
+                  </div>
+                  <div class="showcase-pro__content-item-text">
+                    <h3 class="showcase-pro__content-item-title">
+                      Booking system
+                    </h3>
+                    <p class="showcase-pro__content-item-desc">
+                      Choose booking free, money, crypt, at the
+                      <span class="c-white">entrance</span>, integrate
+                      third-party services
+                    </p>
+                  </div>
+                  <div class="showcase-pro__content-item-img">
+                    <img src="./img/showcase-pro-yellow-img.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="uniqueness-pro">
+          <div class="uniqueness-pro__wrapper">
+            <div class="container">
+              <div class="uniqueness-pro__scroll">
+                <div class="uniqueness-pro__scroll-item">
+                  <div class="uniqueness-pro__scroll-item-upper">
+                    <h2 class="uniqueness-pro__scroll-item-title">
+                     <span class="c-yellow">1</span> create and grind an account</span>
+                    </h2>
+                    <span class="uniqueness-pro__scroll-item-subtitle"
+                      >8 chips of your account that will make you an almighty guru in the world of your metropolis's events and venues </span
+                    >
+                  </div>
+                  <div class="uniqueness-pro__scroll-item-content">
+                    <div class="uniqueness-pro__scroll-item-img">
+                      <img src="./img/uniqueness-pro-item-1.webp" alt="" />
+                    </div>
+                    <div class="uniqueness-pro__scroll-item-text">
+
+                      <h3 class="uniqueness-pro__scroll-item-big-text">
+                        A public page
+for growth
+                      </h3>
+                      <p class="uniqueness-pro__scroll-item-desc">
+                        Your account – your portfolio. Your events and media hosted here. More activity – more users find you and your events.
+Share your profile to demonstrate your expertise. Attract a new audience from your social media.
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="uniqueness-pro__scroll-item">
+                  <div class="uniqueness-pro__scroll-item-upper">
+                    <h2 class="uniqueness-pro__scroll-item-title">
+                      <span class="c-green">2</span> create your events
+                    </h2>
+                    <span class="uniqueness-pro__scroll-item-subtitle"
+                      >8 chips of your account that will make you an almighty guru in the world of your metropolis's events and venues </span
+                    >
+                  </div>
+                  <div class="uniqueness-pro__scroll-item-content">
+                    <div class="uniqueness-pro__scroll-item-img">
+                      <img src="./img/uniqueness-pro-item-2.webp" alt="" />
+                    </div>
+                    <div class="uniqueness-pro__scroll-item-text">
+
+                      <h3 class="uniqueness-pro__scroll-item-big-text">
+                        Post your events
+                      </h3>
+                      <p class="uniqueness-pro__scroll-item-desc">
+                        Create your events with one finger. Elaborate – the more unique your event, the larger its audience.
+                        For a <span>better effect</span>  work with offers  and up-sales.
+
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="uniqueness-pro__scroll-item">
+                  <div class="uniqueness-pro__scroll-item-upper">
+                    <h2 class="uniqueness-pro__scroll-item-title">
+                     <span class="c-dark-pink">3</span> create your booking
+                    </h2>
+                    <span class="uniqueness-pro__scroll-item-subtitle"
+                      >8 chips of your account that will make you an almighty guru in the world of your metropolis's events and venues </span
+                    >
+                  </div>
+                  <div class="uniqueness-pro__scroll-item-content">
+                    <div class="uniqueness-pro__scroll-item-img">
+                      <img src="./img/uniqueness-pro-item-3.webp" alt="" />
+                    </div>
+                    <div class="uniqueness-pro__scroll-item-text">
+
+                      <h3 class="uniqueness-pro__scroll-item-big-text">
+                        Sell, earn and validate
+
+                      </h3>
+                      <p class="uniqueness-pro__scroll-item-desc">
+                        Your own simple and flexible booking system.
+                        Easily segment ticket types, dates, times and prices.
+                        Choice of booking: “free”, “money”, “crypto”, “QR  & cash” or third party service integration.
+
+
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="uniqueness-pro__scroll-item">
+                  <div class="uniqueness-pro__scroll-item-upper">
+                    <h2 class="uniqueness-pro__scroll-item-title">
+                     <span class="c-yellow">4</span> level up your event cards
+                    </h2>
+                    <span class="uniqueness-pro__scroll-item-subtitle"
+                      >8 chips of your account that will make you an almighty guru in the world of your metropolis's events and venues </span
+                    >
+                  </div>
+                  <div class="uniqueness-pro__scroll-item-content">
+                    <div class="uniqueness-pro__scroll-item-img">
+                      <img src="./img/uniqueness-pro-item-4.webp" alt="" />
+                    </div>
+                    <div class="uniqueness-pro__scroll-item-text">
+
+                      <h3 class="uniqueness-pro__scroll-item-big-text">
+                        Upgrading the
+                        event card
+                      </h3>
+                      <p class="uniqueness-pro__scroll-item-desc">
+                        Your event card is your public mini-site. The more content and activity inside it, the more attention and visitors it will attract. Add unique features, offers, upsells, promotions and general content in voice or text format.
+
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="uniqueness-pro__scroll-item">
+                  <div class="uniqueness-pro__scroll-item-upper">
+                    <h2 class="uniqueness-pro__scroll-item-title">
+                      <span class="c-blue">5</span> break down the “no shows”
+                    </h2>
+                    <span class="uniqueness-pro__scroll-item-subtitle"
+                      >8 chips of your account that will make you an almighty guru in the world of your metropolis's events and venues </span
+                    >
+                  </div>
+                  <div class="uniqueness-pro__scroll-item-content">
+                    <div class="uniqueness-pro__scroll-item-img">
+                      <img src="./img/uniqueness-pro-item-5.webp" alt="" />
+                    </div>
+                    <div class="uniqueness-pro__scroll-item-text">
+
+                      <h3 class="uniqueness-pro__scroll-item-big-text">
+                        “NO SHOWS” not a problem any more
+                      </h3>
+                      <p class="uniqueness-pro__scroll-item-desc">
+                        Analyse the metrics and work with them using ready-made tools:
+                        offers, notifications, reminders, refreshers, surveys, highlights.
+                        <br><br>
+                        A unique metric, the <span>"Show Up Ratio,"</span>  that indicates the likelihood of users showing up.
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="uniqueness-pro__scroll-item">
+                  <div class="uniqueness-pro__scroll-item-upper">
+                    <h2 class="uniqueness-pro__scroll-item-title">
+                      6 communicate
+                    </h2>
+                    <span class="uniqueness-pro__scroll-item-subtitle"
+                      >8 chips of your account that will make you an almighty guru in the world of your metropolis's events and venues </span
+                    >
+                  </div>
+                  <div class="uniqueness-pro__scroll-item-content">
+                    <div class="uniqueness-pro__scroll-item-img">
+                      <img src="./img/uniqueness-pro-item-6.webp" alt="" />
+                    </div>
+                    <div class="uniqueness-pro__scroll-item-text">
+
+                      <h3 class="uniqueness-pro__scroll-item-big-text">
+                        Own content feed
+                      </h3>
+                      <p class="uniqueness-pro__scroll-item-desc">
+                        The feed reflects all the life of the metropolis: news, tips, memes, selections. Your events are also in the feed. People see them, subscribe to you and come to your events.
+
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="uniqueness-pro__scroll-item">
+                  <div class="uniqueness-pro__scroll-item-upper">
+                    <h2 class="uniqueness-pro__scroll-item-title">
+                      7 be the part of News feed
+                    </h2>
+                    <span class="uniqueness-pro__scroll-item-subtitle"
+                      >8 chips of your account that will make you an almighty guru in the world of your metropolis's events and venues </span
+                    >
+                  </div>
+                  <div class="uniqueness-pro__scroll-item-content">
+                    <div class="uniqueness-pro__scroll-item-img">
+                      <img src="./img/uniqueness-pro-item-7.webp" alt="" />
+                    </div>
+                    <div class="uniqueness-pro__scroll-item-text">
+
+                      <h3 class="uniqueness-pro__scroll-item-big-text">
+                        Unique transparent statistics
+
+                      </h3>
+                      <p class="uniqueness-pro__scroll-item-desc">
+                        Any user activity on your profile or in your event cards is tracked and broadcast to you in a convenient format for you to study. Dozens of metrics that you can transparently analyse and improve visitor satisfaction.
+
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="uniqueness-pro__swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="uniqueness-pro__scroll-item">
+                      <div class="uniqueness-pro__scroll-item-upper">
+                        <h2 class="uniqueness-pro__scroll-item-title">
+                         <span class="c-yellow">1</span> grind an account
+                        </h2>
+                        <span class="uniqueness-pro__scroll-item-subtitle"
+                          >It is more convenient, more efficient and easier, centralization of all processes, new opportunities</span
+                        >
+                      </div>
+                      <div class="uniqueness-pro__scroll-item-content">
+                        <div class="uniqueness-pro__scroll-item-img">
+                          <img src="./img/uniqueness-pro-item-1.webp" alt="" />
+                        </div>
+                        <div class="uniqueness-pro__scroll-item-text">
+
+                          <h3 class="uniqueness-pro__scroll-item-big-text">
+                            A public page
+                            for growth
+                          </h3>
+                          <p class="uniqueness-pro__scroll-item-desc">
+                            Your account – your portfolio. Your events and media hosted here. More activity <span>more users.</span> <br>
+                            Share the profile to demo your expertise. Attract a new audience from your social media
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="uniqueness-pro__scroll-item">
+                      <div class="uniqueness-pro__scroll-item-upper">
+                        <h2 class="uniqueness-pro__scroll-item-title">
+                          <span class="c-green">2</span> create events
+                        </h2>
+                        <span class="uniqueness-pro__scroll-item-subtitle"
+                          >It is more convenient, more efficient and easier, centralization of all processes, new opportunities</span
+                        >
+                      </div>
+                      <div class="uniqueness-pro__scroll-item-content">
+                        <div class="uniqueness-pro__scroll-item-img">
+                          <img src="./img/uniqueness-pro-item-2.webp" alt="" />
+                        </div>
+                        <div class="uniqueness-pro__scroll-item-text">
+
+                          <h3 class="uniqueness-pro__scroll-item-big-text">
+                            Post your events
+                          </h3>
+                          <p class="uniqueness-pro__scroll-item-desc">
+                            Create your events with one finger. Elaborate – the more unique your event, the larger its audience. <br>
+                            For a <span>better effect</span> work with offers  and upsells
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="uniqueness-pro__scroll-item">
+                      <div class="uniqueness-pro__scroll-item-upper">
+                        <h2 class="uniqueness-pro__scroll-item-title">
+                          <span class="c-dark-pink">3</span> create booking
+                        </h2>
+                        <span class="uniqueness-pro__scroll-item-subtitle"
+                          >It is more convenient, more efficient and easier, centralization of all processes, new opportunities</span
+                        >
+                      </div>
+                      <div class="uniqueness-pro__scroll-item-content">
+                        <div class="uniqueness-pro__scroll-item-img">
+                          <img src="./img/uniqueness-pro-item-3.webp" alt="" />
+                        </div>
+                        <div class="uniqueness-pro__scroll-item-text">
+
+                          <h3 class="uniqueness-pro__scroll-item-big-text">
+                            Sell, earn and<br> validate
+
+                          </h3>
+                          <p class="uniqueness-pro__scroll-item-desc">
+                            Yo own simple, flexible booking sys. Easily segment ticket types, dates, times and prices.<br>
+                            Choice of booking: “free”, <span>“money”, “crypto”</span>, “QR  & cash” or third party service integration
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="uniqueness-pro__scroll-item">
+                      <div class="uniqueness-pro__scroll-item-upper">
+                        <h2 class="uniqueness-pro__scroll-item-title">
+                         <span class="c-yellow">4</span> level up cards
+                        </h2>
+                        <span class="uniqueness-pro__scroll-item-subtitle"
+                          >It is more convenient, more efficient and easier, centralization of all processes, new opportunities</span
+                        >
+                      </div>
+                      <div class="uniqueness-pro__scroll-item-content">
+                        <div class="uniqueness-pro__scroll-item-img">
+                          <img src="./img/uniqueness-pro-item-4.webp" alt="" />
+                        </div>
+                        <div class="uniqueness-pro__scroll-item-text">
+
+                          <h3 class="uniqueness-pro__scroll-item-big-text">
+                            The event card
+                          </h3>
+                          <p class="uniqueness-pro__scroll-item-desc">
+                            is yo public mini-site. The more content and activity, the more visitors it will attract. Features, offers, upsells, voices, interviews, respects – <span>Influences the choice</span> i and your success
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="uniqueness-pro__scroll-item">
+                      <div class="uniqueness-pro__scroll-item-upper">
+                        <h2 class="uniqueness-pro__scroll-item-title">
+                          <span class="c-blue">5</span> attendance
+                        </h2>
+                        <span class="uniqueness-pro__scroll-item-subtitle"
+                          >It is more convenient, more efficient and easier, centralization of all processes, new opportunities</span
+                        >
+                      </div>
+                      <div class="uniqueness-pro__scroll-item-content">
+                        <div class="uniqueness-pro__scroll-item-img">
+                          <img src="./img/uniqueness-pro-item-5.webp" alt="" />
+                        </div>
+                        <div class="uniqueness-pro__scroll-item-text">
+
+                          <h3 class="uniqueness-pro__scroll-item-big-text">
+                            “NO SHOWS” not a problem any more
+                          </h3>
+                          <p class="uniqueness-pro__scroll-item-desc">
+                            Analyse the metrics, use ready-made tools: offers, notifications, reminders, refreshers, surveys, highlights.
+                            Unique <span>"Show Up Ratio"</span>  indicates the likelihood of users showing up
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="uniqueness-pro__scroll-item">
+                      <div class="uniqueness-pro__scroll-item-upper">
+                        <h2 class="uniqueness-pro__scroll-item-title">
+                          6 communicate
+                        </h2>
+                        <span class="uniqueness-pro__scroll-item-subtitle"
+                          >It is more convenient, more efficient and easier, centralization of all processes, new opportunities</span
+                        >
+                      </div>
+                      <div class="uniqueness-pro__scroll-item-content">
+                        <div class="uniqueness-pro__scroll-item-img">
+                          <img src="./img/uniqueness-pro-item-6.webp" alt="" />
+                        </div>
+                        <div class="uniqueness-pro__scroll-item-text">
+
+                          <h3 class="uniqueness-pro__scroll-item-big-text">
+                            Attract and chat
+                          </h3>
+                          <p class="uniqueness-pro__scroll-item-desc">
+                            Dedicated chat rooms for each event. Share the entire sys or individual chat rooms.<br>
+                            Users see who they match with and connect actively, chat and <span>make plans to visit you</span>
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="uniqueness-pro__scroll-item">
+                      <div class="uniqueness-pro__scroll-item-upper">
+                        <h2 class="uniqueness-pro__scroll-item-title">
+                          7 be the part
+                        </h2>
+                        <span class="uniqueness-pro__scroll-item-subtitle"
+                          >It is more convenient, more efficient and easier, centralization of all processes, new opportunities</span
+                        >
+                      </div>
+                      <div class="uniqueness-pro__scroll-item-content">
+                        <div class="uniqueness-pro__scroll-item-img">
+                          <img src="./img/uniqueness-pro-item-7.webp" alt="" />
+                        </div>
+                        <div class="uniqueness-pro__scroll-item-text">
+
+                          <h3 class="uniqueness-pro__scroll-item-big-text">
+                            Own content Feed
+
+                          </h3>
+                          <p class="uniqueness-pro__scroll-item-desc">
+                            The Feed reflects the city’s life: news, tips, memes, selections. Your events are also in the feed. People see them, <span>subscribe and come</span> to your events
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="event-power">
+          <div class="event-power__wrapper">
+            <div class="container">
+              <div class="event-power__content">
+                <div class="event-power__become">
+                  <div class="event-power__become-img">
+                    <img src="./img/become-pro-yellow.png" alt="" class="become-pro-yellow">
+                    <img src="./img/become-pro-blue.png" alt="" class="become-pro-blue">
+                  </div>
+                  <div class="event-power__become-text">
+                    <div class="event-power__become-text-item">
+                      <span class="event-power__become-text-item-name">Your events </span>
+                      <p class="event-power__become-text-item-desc">Manage and promote them “all-inclusively” with one finger, with pleasure</p>
+                    </div>
+                    <div class="event-power__become-text-item">
+                      <span class="event-power__become-text-item-name">The world for your events</span>
+                      <p class="event-power__become-text-item-desc">Shuffle – social ecosystem "pocket cities", where your events are the main subject and the main uniqueness the city lives by</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event-power__video">
+                  <a href="#" class="event-power__video-link">
+                    <img src="./img/become-video-img.png" alt="">
+                    <button type="button" class="video-play-button btn-reset">
+                      <img src="./img/play-button.svg" alt="">
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div class="event-power__download">
+                <h2 class="event-power__download-title">Why do you need all this?</h2>
+                <div class="event-power__download-text">
+                  <p class="event-power__download-desc"> You are an active user, a businessman, and you are ready to make your events more popular and better through your activity</p>
+                  <a href="#" class="event-power__download-link">download app</a>
+                </div>
+              </div>
+           </div>
+        </div>
+        </section>
+
+
+        <section class="event-promo">
+          <div class="event-promo__wrapper">
+             <div class="container">
+              <div class="event-promo__content">
+                <div class="event-promo__content-left">
+                  <div class="event-promo__content-left-item event-promo__content-item">
+                    <div class="event-promo__content-item-img bg-pink ">
+                      <img src="./img/diag.svg" alt="">
+                    </div>
+                    <span class="event-promo__content-item-name">Do SOLD OUT</span>
+                    <p class="event-promo__content-item-desc">Working out the NO SHOWS indicator and the exclusive SHOW UP RATIO will allow you to predict turnout and optimize the event</p>
+                  </div>
+                  <div class="event-promo__content-item-dark">
+                    <span class="event-promo__content-item-dark-desc">Event promotion in different cities</span>
+                  </div>
+                  <div class="event-promo__content-left-item event-promo__content-item">
+                    <div class="event-promo__content-item-img bg-yellow">
+                      <img src="./img/money.svg" alt="">
+                    </div>
+                    <span class="event-promo__content-item-name">Your  booking your money</span>
+                    <p class="event-promo__content-item-desc">Independent booking system. Different types of tickets and price tags. Ticket validation and a simple refund</p>
+                  </div>
+                  <div class="event-promo__content-left-item event-promo__content-item">
+                    <div class="event-promo__content-item-img bg-blue">
+                      <img src="./img/circle-diag.svg" alt="">
+                    </div>
+                    <span class="event-promo__content-item-name">Analyze numbers and make decisions</span>
+                    <p class="event-promo__content-item-desc">The world's only unique complete statistics on your events, both individually and overall</p>
+                  </div>
+                </div>
+                <div class="event-promo__content-middle">
+                  <img src="./img/event-promo-upper.png" alt="" class="hidden-mobile">
+                  <span class="event-promo__content-middle-text">Let your events be the best of the best</span>
+                  <img src="./img/event-promo-bottom.png" alt="" class="img-bottom">
+                </div>
+                <div class="event-promo__content-right">
+                  <div class="event-promo__content-right-item event-promo__content-item">
+                    <div class="event-promo__content-item-img bg-light-pink">
+                      <img src="./img/like.svg" alt="">
+                    </div>
+                    <span class="event-promo__content-item-name">Growth of your media presence</span>
+                    <p class="event-promo__content-item-desc">A public profile is like a portfolio and proof of your expertise, attracting new audience, and growing it</p>
+                  </div>
+
+                  <div class="event-promo__content-right-item event-promo__content-item big">
+                    <div class="event-promo__content-item-img bg-green">
+                      <img src="./img/dual-user.svg" alt="">
+                    </div>
+                    <span class="event-promo__content-item-name">You'll be noticed, and we'll help</span>
+                    <p class="event-promo__content-item-desc">Free rotation in all Shuffle sections, through the unique recommendation system. Automatic placement in profile collections and digests, inside the Shuffle Feed and in external social networks of the project</p>
+                  </div>
+
+                  <div class="event-promo__content-item-dark">
+                    <span class="event-promo__content-item-dark-desc">Tools for interacting with the audience</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        </section>
+
+        <section class="become-pro">
+          <div class="become-pro__wrapper">
+            <div class="container">
+              <div class="become-pro__content">
+                <div class="become-pro__consult">
+                  <h2 class="become-pro__consult-title">How to Become a Pro</h2>
+                  <p class="become-pro__consult-desc">All the functionality that you will see and explore as an ordinary user will become a platform for your events. They will be in rotation, they will be added to favorites, added to the glider, they will be shared and invited and gathered by companies and much more.</p>
+                  <a href="#" class="become-pro__consult-link">Consultation</a>
+                </div>
+                <ul class="become-pro__list list-reset">
+                  <li class="become-pro__item">
+                    <span class="become-pro__item-name">Download the app and register</span>
+                    <p class="become-pro__item-desc">Think about your first cool event, go through a short registration procedure and start gaining popularity</p>
+                  </li>
+                  <li class="become-pro__item">
+                    <span class="become-pro__item-name">You're just a regular user. Take a look around.</span>
+                    <p class="become-pro__item-desc">Explore our application, follow the user's convenient path and learn about our features</p>
+                  </li>
+                  <li class="become-pro__item">
+                    <span class="become-pro__item-name">Set up your account</span>
+                    <p class="become-pro__item-desc">Go to the Profile, Settings, Edit Profile and select the PRO button</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="video-player-container">
+                <div class="video-player-play-button bg-green">
+                  <img src="./img/video-button-yellow.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="success-pro">
+          <div class="success-pro__wrapper">
+            <div class="container">
+              <h2 class="success-pro__title">It all starts with you</h2>
+              <p class="success-pro__subtitle">The more unique your product is, the bigger the audience it will reach and the more successful we will be together</p>
+              <div class="success-pro__content">
+                <div class="success-pro__content-item success-pro__content-item--vertical">
+                  <span class="success-pro__content-item-name">INCOME</span>
+                  <div class="success-pro__content-item-img">
+                    <img src="./img/linear-diag.png" alt="">
+                  </div>
+                  <p class="success-pro__content-item-desc">We create success together and money – logical result</p>
+                </div>
+                <div class="success-pro__content-item success-pro__content-item--default">
+                  <span class="success-pro__content-item-name">show up<br> ratio</span>
+                  <div class="success-pro__content-item-img">
+                    <img src="./img/circle-diag-item.png" alt="">
+                  </div>
+
+                </div>
+                <div class="success-pro__content-item success-pro__content-item--blue">
+                  <span class="success-pro__content-item-name">new users</span>
+
+                  <p class="success-pro__content-item-desc">The number of users will grow. We are working on it for you</p>
+                  <div class="success-pro__content-item-img">
+                    <img src="./img/users-item-add.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="faq">
+  <div class="faq__wrapper">
+    <div class="container">
+      <h2 class="faq__title">Do you have any other questions?</h2>
+      <div class="faq__list">
+        <div class="faq__item">
+          <button class="faq__question">
+            Just tell me what I should do?<span class="faq__icon bg">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Download Shuffle app, register and subscribe to "PRO". You can do
+              it by going to the "Profile" app section, clicking on the gear at
+              the top left (Settings) and going to "Edit profile". There, click
+              the PRO button. Don't forget that initially you are a regular user
+              of the app and you can just see how everything works, because your
+              events will become part of all this. This is important, you will
+              be able to understand what to focus on, how your events will be
+              seen by others.Other users see your activity, look at your profile
+              and your events, and subscribe to you.
+            </p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            What do I need to pay for? <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              You have two weeks trial period. Then the cost of a subscription
+              is a couple of cups of coffee. Inside, all the basic functionality
+              is free. There are paid functions, but this is optional. There is
+              a percentage of the ticket price that is retained by the booking
+              system.
+            </p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            The booking – how to accept money? <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              You set up the booking system for yourself. Money goes through
+              integration with our partner Stripe, where you register and verify
+              yourself. This is security for you and for our users - your
+              clients. Cryptocurrency operates within the framework of standard
+              exchange and blockchain procedures.
+            </p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            Is it necessary to integrate or insert some counters?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              No. Shuffle is a complete ecosystem in which you have a detailed
+              block of all the necessary statistics, including unique indicators
+              that you can use to pump up your events, detail your work with the
+              audience
+            </p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            Where do you get your users from? <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              We work with social networks, contextual advertising. We work with
+              partner networks and offline events. We have large coverage. We
+              also highlight your events everywhere.
+            </p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            Is Shuffle better then Instagram and Telegram?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>
+              These are fundamentally different platforms. There are "everything
+              for everyone" and specialized ones. Instagram and Telegram have a
+              general audience that consumes visual or text content. Shuffle has
+              users who specifically observe the life of a metropolis, where
+              places and events is the main content. Large services do not have
+              any specific specialized tools, while Shuffle has everything to
+              work with events.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="faq__link"> Ask us </a>
+    </div>
+  </div>
+</section>
+
+
+        <section class="qr-section">
+          <div class="qr-section__wrapper">
+            <div class="container">
+              <h2 class="qr-section__title">Palette yourself</h2>
+              <span class="qr-section__subtitle"
+                >smart leisure selection for everyone, everywhere</span
+              >
+              <a href="#" class="download-app__link">download app</a>
+              <div class="qr-section__code">
+                <img src="./img/qr-code.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__content-upper">
+        <a href="./index.html" class="footer__logo"
+          ><img src="./img/logo.svg" alt=""
+        /></a>
+        <div class="footer__content-upper-fcopy">
+          <span class="footer__content-upper-fcopy-name"
+            >Shuffle<span>palette yourself </span></span
+          >
+          <span class="footer__content-upper-fcopy-copyr"
+            >azart technologies fzco 2025</span
+          >
+          <span class="footer__content-upper-fcopy-loc"
+            >Dubai Silicon Oasis</span
+          >
+        </div>
+        <div class="footer__content-upper-links">
+          <a href="#" class="footer__content-upper-link">Privacy Policy</a>
+          <a href="#" class="footer__content-upper-link">Terms of service</a>
+        </div>
+      </div>
+      <div class="footer__content-links">
+        <ul class="footer__content-links-list list-reset">
+          <li class="footer__content-links-item">
+            <span class="footer__content-links-item-name">Dubai</span>
+            <a href="#" class="footer__content-links-item-link">Inst: In dev</a>
+            <a href="#" class="footer__content-links-item-link"
+              >Telegram: In dev</a
+            >
+          </li>
+          <li class="footer__content-links-item">
+            <span class="footer__content-links-item-name">Phuket</span>
+            <a href="#" class="footer__content-links-item-link">Inst: In dev</a>
+            <a href="#" class="footer__content-links-item-link"
+              >Telegram: In dev</a
+            >
+          </li>
+          <li class="footer__content-links-item">
+            <span class="footer__content-links-item-name">Riyadh</span>
+            <a href="#" class="footer__content-links-item-link">Inst: In dev</a>
+            <a href="#" class="footer__content-links-item-link"
+              >Telegram: In dev</a
+            >
+          </li>
+          <li class="footer__content-links-item">
+            <span class="footer__content-links-item-name">Almaty</span>
+            <a href="#" class="footer__content-links-item-link">Inst: In dev</a>
+            <a href="#" class="footer__content-links-item-link"
+              >Telegram: In dev</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        <span>© Shuffle • azart technologies fzco • 2025</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+  </body>
+</html>
