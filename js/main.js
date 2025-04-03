@@ -628,7 +628,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       return translationCache[lang];
     }
     try {
-      const response = await fetch(`../locales/${lang}.json`);
+      const response = await fetch(`./locales/${lang}.json`);
       if (!response.ok) throw new Error("Network response was not ok");
       translationCache[lang] = await response.json();
       return translationCache[lang];
@@ -638,7 +638,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
   function getNestedTranslation(translations, keyPath) {
-    return keyPath.split('.').reduce((obj, key) => {
+    return keyPath.split(".").reduce((obj, key) => {
       return obj && obj[key] !== undefined ? obj[key] : null;
     }, translations);
   }
