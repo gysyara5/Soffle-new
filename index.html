@@ -40,11 +40,13 @@
       <nav class="menu" data-menu>
         <ul class="menu__list list-reset">
           <li class="menu__item">
-            <a href="./pro.html" class="menu__link">pro</a>
+            <a href="./pro.html" class="menu__link" data-i18n="header_item-1"
+              >pro</a
+            >
           </li>
-          <li class="menu__item"><a href="#" class="menu__link">org</a></li>
+          <li class="menu__item"><a href="#" class="menu__link" data-i18n="header_item-2">org</a></li>
           <li class="menu__item">
-            <a href="#" class="menu__link">partners</a>
+            <a href="#" class="menu__link" data-i18n="header_item-3">partners</a>
           </li>
         </ul>
         <a href="#" class="header__user user-account mobile"
@@ -55,7 +57,7 @@
       </nav>
       <div class="custom-select">
         <div class="selected-option">
-          <span class="selected-text">RU</span>
+          <span class="selected-text">EN</span>
           <span class="arrow"
             ><svg
               width="13"
@@ -76,8 +78,12 @@
         </div>
         <div class="options-container">
           <label class="custom-option">
-            <input type="radio" name="language" value="en" />
+            <input type="radio" name="language" value="en" checked />
             <span class="custom-option-text">EN</span>
+          </label>
+          <label class="custom-option">
+            <input type="radio" name="language" value="ru" />
+            <span class="custom-option-text">RU</span>
           </label>
           <label class="custom-option">
             <input type="radio" name="language" value="ar" />
@@ -115,7 +121,7 @@
                 class="hero__item-img-container"
                 style="background-image: url(./img/hero-item1.webp)"
               ></div>
-              <span class="hero__item-name">Dubai</span>
+              <span class="hero__item-name" data-i18n="hero_item-1">Dubai</span>
             </a>
           </div>
           <div class="swiper-slide slide-2">
@@ -124,7 +130,7 @@
                 class="hero__item-img-container"
                 style="background-image: url(./img/hero-item2.webp)"
               ></div>
-              <span class="hero__item-name">Phuket</span>
+              <span class="hero__item-name" data-i18n="hero_item-2">Phuket</span>
             </a>
           </div>
           <div class="swiper-slide slide-3">
@@ -135,7 +141,7 @@
               >
                 <span class="hero__item-coming">Coming soon</span>
               </div>
-              <span class="hero__item-name">Riyadh</span>
+              <span class="hero__item-name" data-i18n="hero_item-3">Riyadh</span>
             </a>
           </div>
 
@@ -147,14 +153,14 @@
               >
                 <span class="hero__item-coming">Coming soon</span>
               </div>
-              <span class="hero__item-name">Almaty</span>
+              <span class="hero__item-name" data-i18n="hero_item-4">Almaty</span>
             </a>
           </div>
           <div class="swiper-slide slide-5 last">
             <a href="#" draggable="false" class="hero__item last">
               <div class="hero__item-img-container">
-                <div class="hero__item-future hero__item-name">Moscow</div>
-                <span class="hero__item-text">to be continued</span>
+                <div class="hero__item-future hero__item-name" data-i18n="hero_item-last">Moscow</div>
+                <span class="hero__item-text" data-i18n="hero_item-last-text">to be continued</span>
               </div>
               <span class="hero__item-name"></span>
             </a>
@@ -1293,7 +1299,7 @@
         /></a>
         <div class="footer__content-upper-fcopy">
           <span class="footer__content-upper-fcopy-name"
-            >Shuffle<span>palette yourself </span></span
+            >Shuffle<span data-i18n="footer.upper.yourself">palette yourself </span></span
           >
           <span class="footer__content-upper-fcopy-copyr"
             >azart technologies fzco 2025</span
@@ -1303,38 +1309,38 @@
           >
         </div>
         <div class="footer__content-upper-links">
-          <a href="#" class="footer__content-upper-link">Privacy Policy</a>
-          <a href="#" class="footer__content-upper-link">Terms of service</a>
+          <a href="#" class="footer__content-upper-link" data-i18n="footer.upper.privacy">Privacy Policy</a>
+          <a href="#" class="footer__content-upper-link"data-i18n="footer.upper.terms">Terms of service</a>
         </div>
       </div>
       <div class="footer__content-links">
         <ul class="footer__content-links-list list-reset">
           <li class="footer__content-links-item">
-            <span class="footer__content-links-item-name">Dubai</span>
-            <a href="#" class="footer__content-links-item-link">Inst: In dev</a>
+            <span class="footer__content-links-item-name" data-i18n="footer.middle.item.1.name">Dubai</span>
+            <a href="#" class="footer__content-links-item-link">Inst: <span data-i18n="footer.middle.item.1.dev">In dev</span> </a>
             <a href="#" class="footer__content-links-item-link"
-              >Telegram: In dev</a
+              >Telegram: <span data-i18n="footer.middle.item.1.dev">In dev</span></a
             >
           </li>
           <li class="footer__content-links-item">
-            <span class="footer__content-links-item-name">Phuket</span>
-            <a href="#" class="footer__content-links-item-link">Inst: In dev</a>
+            <span class="footer__content-links-item-name"data-i18n="footer.middle.item.2.name">Phuket</span>
+            <a href="#" class="footer__content-links-item-link">Inst: <span data-i18n="footer.middle.item.2.dev">In dev</span> </a>
             <a href="#" class="footer__content-links-item-link"
-              >Telegram: In dev</a
+              >Telegram: <span data-i18n="footer.middle.item.2.dev">In dev</span></a
             >
           </li>
           <li class="footer__content-links-item">
-            <span class="footer__content-links-item-name">Riyadh</span>
-            <a href="#" class="footer__content-links-item-link">Inst: In dev</a>
+            <span class="footer__content-links-item-name" data-i18n="footer.middle.item.3.name">Riyadh</span>
+            <a href="#" class="footer__content-links-item-link">Inst: <span data-i18n="footer.middle.item.2.dev">In dev</span></a>
             <a href="#" class="footer__content-links-item-link"
-              >Telegram: In dev</a
+              >Telegram: <span data-i18n="footer.middle.item.2.dev">In dev</span></a
             >
           </li>
           <li class="footer__content-links-item">
-            <span class="footer__content-links-item-name">Almaty</span>
-            <a href="#" class="footer__content-links-item-link">Inst: In dev</a>
+            <span class="footer__content-links-item-name" data-i18n="footer.middle.item.4.name">Almaty</span>
+            <a href="#" class="footer__content-links-item-link">Inst: <span data-i18n="footer.middle.item.2.dev">In dev</span></a>
             <a href="#" class="footer__content-links-item-link"
-              >Telegram: In dev</a
+              >Telegram: <span data-i18n="footer.middle.item.2.dev">In dev</span></a
             >
           </li>
         </ul>

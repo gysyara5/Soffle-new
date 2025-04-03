@@ -218,6 +218,13 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
+  if (document.querySelector(".uniqueness-pro__swiper-inner")) {
+    const uniquenessProSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".uniqueness-pro__swiper-inner", {
+      spaceBetween: 0,
+      slidesPerView: 1.1,
+      direction: "vertical"
+    });
+  }
   if (document.querySelector(".search-engine__swiper")) {
     const swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".search-engine__swiper", {
       spaceBetween: 25,
@@ -240,34 +247,91 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-  const allSelects = document.querySelectorAll(".custom-select");
+
+  /*  const allSelects = document.querySelectorAll(".custom-select");
+  let currentLang = "en"; // Язык по умолчанию
+   // Функция загрузки переводов
+  async function loadTranslations(lang) {
+    const response = await fetch(`../locales/${lang}.json`);
+    return await response.json();
+  }
+   // Функция применения переводов
+  async function applyTranslations(lang) {
+    try {
+      const translations = await loadTranslations(lang);
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        el.textContent = translations[key] || el.textContent;
+      });
+    } catch (error) {
+      console.error("Error loading translations:", error);
+    }
+  }
+   // Инициализация селекта
   if (allSelects.length > 0) {
     function toggleSelect(select) {
       select.classList.toggle("open");
     }
-    document.addEventListener("click", event => {
-      allSelects.forEach(select => {
+     document.addEventListener("click", (event) => {
+      allSelects.forEach((select) => {
         if (!select.contains(event.target)) {
           select.classList.remove("open");
         }
       });
     });
-    allSelects.forEach(select => {
+     allSelects.forEach((select) => {
       const selectedOption = select.querySelector(".selected-option");
-      const optionsContainer = select.querySelector(".options-container");
       const radioInputs = select.querySelectorAll('input[type="radio"]');
-      selectedOption.addEventListener("click", () => {
+      const selectedTextElement = select.querySelector(".selected-text");
+       selectedOption.addEventListener("click", () => {
         toggleSelect(select);
       });
-      radioInputs.forEach(input => {
-        input.addEventListener("change", () => {
+       radioInputs.forEach((input) => {
+        input.addEventListener("change", async () => {
           const selectedText = input.nextElementSibling.textContent;
-          select.querySelector(".selected-text").textContent = selectedText;
-          select.classList.remove("open");
+          const selectedValue = input.value;
+           // Обновляем интерфейс селекта
+          selectedTextElement.textContent = selectedText;
+          radioInputs.forEach((radio) => {
+            const optionLabel = radio.closest(".custom-option");
+            optionLabel.style.display =
+              radio.value === selectedValue ? "none" : "flex";
+          });
+           // Меняем язык на сайте
+          currentLang = selectedValue;
+          localStorage.setItem("selectedLang", currentLang);
+          await applyTranslations(currentLang);
+           select.classList.remove("open");
         });
       });
+       // Восстановление выбранного языка
+      const savedLang = localStorage.getItem("selectedLang");
+      if (savedLang) {
+        const radioToSelect = select.querySelector(
+          `input[value="${savedLang}"]`
+        );
+        if (radioToSelect) {
+          radioToSelect.checked = true;
+          selectedTextElement.textContent =
+            radioToSelect.nextElementSibling.textContent;
+          currentLang = savedLang;
+        }
+      }
+       // Скрываем выбранный язык в списке
+      const initiallySelected = select.querySelector(
+        'input[type="radio"]:checked'
+      );
+      if (initiallySelected) {
+        initiallySelected.closest(".custom-option").style.display = "none";
+      }
     });
   }
+   // Инициализация переводов при загрузке
+  document.addEventListener("DOMContentLoaded", async () => {
+    const savedLang = localStorage.getItem("selectedLang") || "en";
+    await applyTranslations(savedLang);
+  });
+  */
   if (typeof gsap !== "undefined") {
     gsap.registerPlugin(ScrollTrigger);
     if (window.innerWidth > 1024) {
@@ -551,6 +615,116 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   }
+});
+document.addEventListener("DOMContentLoaded", async () => {
+  // 1. Инициализация языков
+  const allSelects = document.querySelectorAll(".custom-select");
+  let currentLang = localStorage.getItem("selectedLang") || "en";
+  const translationCache = {}; // Кэш для хранения загруженных переводов
+
+  // 2. Функции для работы с переводами
+  async function loadTranslations(lang) {
+    if (translationCache[lang]) {
+      return translationCache[lang];
+    }
+    try {
+      const response = await fetch(`../locales/${lang}.json`);
+      if (!response.ok) throw new Error("Network response was not ok");
+      translationCache[lang] = await response.json();
+      return translationCache[lang];
+    } catch (error) {
+      console.error("Error loading translations:", error);
+      return {};
+    }
+  }
+  function getNestedTranslation(translations, keyPath) {
+    return keyPath.split('.').reduce((obj, key) => {
+      return obj && obj[key] !== undefined ? obj[key] : null;
+    }, translations);
+  }
+  async function applyTranslations(lang) {
+    try {
+      const translations = await loadTranslations(lang);
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        const value = getNestedTranslation(translations, key);
+        if (value !== null) {
+          // Для поддержки HTML-тегов используем innerHTML
+          el.innerHTML = value;
+        } else {
+          console.warn(`Missing translation for key: ${key}`);
+          // Можно оставить исходный текст или показать заглушку
+        }
+      });
+    } catch (error) {
+      console.error("Error applying translations:", error);
+    }
+  }
+
+  // 3. Инициализация селекта
+  if (allSelects.length > 0) {
+    function toggleSelect(select) {
+      select.classList.toggle("open");
+    }
+
+    // Закрытие при клике вне селекта
+    document.addEventListener("click", e => {
+      if (!e.target.closest(".custom-select")) {
+        allSelects.forEach(s => s.classList.remove("open"));
+      }
+    });
+    allSelects.forEach(select => {
+      const selectedOption = select.querySelector(".selected-option");
+      const radioInputs = select.querySelectorAll('input[type="radio"]');
+      const selectedText = select.querySelector(".selected-text");
+
+      // Инициализация выбранного языка
+      const savedLang = localStorage.getItem("selectedLang");
+      if (savedLang) {
+        const radioToSelect = select.querySelector(`input[value="${savedLang}"]`);
+        if (radioToSelect) {
+          radioToSelect.checked = true;
+          selectedText.textContent = radioToSelect.nextElementSibling.textContent;
+          currentLang = savedLang;
+        }
+      }
+
+      // Скрываем выбранный вариант
+      const activeRadio = select.querySelector('input[type="radio"]:checked');
+      if (activeRadio) {
+        activeRadio.closest(".custom-option").style.display = "none";
+      }
+
+      // Обработчик открытия/закрытия
+      selectedOption.addEventListener("click", () => toggleSelect(select));
+
+      // Обработчик изменения языка
+      radioInputs.forEach(input => {
+        input.addEventListener("change", async () => {
+          const lang = input.value;
+          selectedText.textContent = input.nextElementSibling.textContent;
+
+          // Обновляем отображение опций
+          radioInputs.forEach(radio => {
+            radio.closest(".custom-option").style.display = radio.value === lang ? "none" : "flex";
+          });
+
+          // Применяем переводы
+          currentLang = lang;
+          localStorage.setItem("selectedLang", lang);
+          await applyTranslations(lang);
+          select.classList.remove("open");
+        });
+      });
+    });
+  }
+
+  // 4. Первоначальная загрузка переводов
+  await applyTranslations(currentLang);
+
+  // 5. Отладочная информация
+  console.log("Current language:", currentLang);
+  console.log("Elements with data-i18n:", document.querySelectorAll("[data-i18n]").length);
 });
 
 /***/ }),
