@@ -1,219 +1,222 @@
 {
-  "showcase_pro": {
-    "blue_card": {
-      "title": "Be the PRO user Create and push up your events",
-      "description": "Позвольте людям встречаться и общаться на ваших мероприятиях с уникальной ротацией",
-      "link": "Consultation",
-      "improvements": {
-        "1": "Improve your <span>attendance</span> and earn money and crypt",
-        "2": "Your <span class='c-yellow'>events </span> are in a unique rotation",
-        "3": "Your new clients are here"
+  "pro_page": {
+    "showcase_pro": {
+      "blue_card": {
+        "title": "Be the PRO user Create and push up your events",
+        "description": "Позвольте людям встречаться и общаться на ваших мероприятиях с уникальной ротацией",
+        "link": "Consultation",
+        "improvements": {
+          "1": "Improve your <span>attendance</span> and earn money and crypt",
+          "2": "Your <span class='c-yellow'>events </span> are in a unique rotation",
+          "3": "Your new clients are here"
+        }
+      },
+      "pink_card": {
+        "title": "Full study of the NO SHOWS problem",
+        "description": "A unique portfolio of tools that allows you to increase an <span>attendance</span>"
+      },
+      "yellow_card": {
+        "title": "Booking system",
+        "description": "Any booking type: free,  money, <span class='c-white'>crypto</span> , at the entrance, integrate third-party services</p>"
       }
     },
-    "pink_card": {
-      "title": "Full study of the NO SHOWS problem",
-      "description": "A unique portfolio of tools that allows you to increase an <span>attendance</span>"
-    },
-    "yellow_card": {
-      "title": "Booking system",
-      "description": "Any booking type: free,  money, <span class='c-white'>crypto</span> , at the entrance, integrate third-party services</p>"
-    }
-  },
-  "uniqueness_pro": {
-    "slide": {
-      "1": {
-        "title": "create and grind an account",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "A public page for growth",
-        "content_description": "Your account – your portfolio. Your events and media hosted here. More activity <span>more users</span><br>. Share the profile to demo your expertise. Attract a new audience from your social media"
-      },
-      "2": {
-        "title": "create your events",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "Post your events ",
-        "content_description": "Create your events with one finger. Elaborate – the more unique your event, the larger its audience. For a <span>better effect</span> work with offers and upsells"
-      },
-      "3": {
-        "title": "create your booking",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "Sell, earn and validate",
-        "content_description": "Yo own simple, flexible booking sys. Easily segment ticket types, dates, times and prices.<br> Choice of booking: “free”, <span>“money”, “crypto”,</span> “QR  & cash” or third party service integration"
-      },
-      "4": {
-        "title": "level up your event cards",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": " The event card",
-        "content_description": "is yo public mini-site. The more content and activity, the more visitors it will attract. Features, offers, upsells, voices, interviews, respects – everything <span>influences the choice</span> and your success"
-      },
-      "5": {
-        "title": "break down the “no shows”",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "“NO SHOWS” not a problem any more ",
-        "content_description": "Analyse the metrics, use ready-made tools: offers, notifications, reminders, refreshers, surveys, highlights.<br> Unique 'Show Up Ratio' indicates the likelihood of users showing up"
-      },
-      "6": {
-        "title": "communicate",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "Attract and chat",
-        "content_description": "Dedicated chat rooms for each event. Share the entire sys or individual chat rooms.<br> Users see who they match with and connect actively, chat and <span>make plans to visit</span> you"
-      },
-      "7": {
-        "title": "be the part of News feed ",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "Own content Feed",
-        "content_description": "The Feed reflects the city’s life: news, tips, memes, selections. Your events are also in the feed. People see them, <span>subscribe and come</span> to your events"
-      },
-      "8": {
-        "title": "use your unique statistics",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "Unique transparent statistics",
-        "content_description": "Any user activity on your profile or in your event cards is tracked and broadcast to you in a convenient format. Metrics you can <span>analyse and improve</span> visitor satisfaction"
-      }
-    },
-    "slide_mobile": {
-      "1": {
-        "title": "grind an account",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "A public page<br>for growth",
-        "content_description": "Your account – your portfolio. Your events and media hosted here. More activity <span> more users</span>.<br>Share the profile to demo your expertise. Attract a new audience from your social media"
-      },
-      "2": {
-        "title": "create events",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "Post your events",
-        "content_description": "Create your events with one finger. Elaborate – the more unique your event, the larger its audience. For a <span>better effect</span> work with offers and upsells"
-      },
-      "3": {
-        "title": "create booking",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "Sell, earn and validate",
-        "content_description": "Yo own simple, flexible booking sys. Easily segment ticket types, dates, times and prices.<br> Choice of booking: “free”, <span>“money”, “crypto”,</span> “QR  & cash” or third party service integration"
-      },
-      "4": {
-        "title": "level up cards",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "The event card",
-        "content_description": "is yo public mini-site. The more content and activity, the more visitors it will attract. Features, offers, upsells, voices, interviews, respects – everything <span>influences the choice</span> and your success"
-      },
-      "5": {
-        "title": "attendance",
-        "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-        "content_title": "“NO SHOWS” not a problem any more ",
-        "content_description": "Analyse the metrics, use ready-made tools: offers, notifications, reminders, refreshers, surveys, highlights.<br> Unique 'Show Up Ratio' indicates the likelihood of users showing up"
-      }
-    },
-    "6": {
-      "title": "communicate",
-      "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-      "content_title": "Attract and chat",
-      "content_description": "Dedicated chat rooms for each event. Share the entire sys or individual chat rooms.<br> Users see who they match with and connect actively, chat and <span>make plans to visit</span> you"
-    },
-    "7": {
-      "title": "be the part",
-      "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-      "content_title": "Own content Feed",
-      "content_description": "The Feed reflects the city’s life: news, tips, memes, selections. Your events are also in the feed. People see them, <span>subscribe and come</span> to your events"
-    },
-    "8": {
-      "title": "use stats",
-      "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
-      "content_title": "Unique transparent statistics",
-      "content_description": "Any user activity on your profile or in your event cards is tracked and broadcast to you in a convenient format. Metrics you can <span>analyse and improve</span> visitor satisfaction"
-    }
-  },
-
-  "event_power": {
-    "main": {
-      "upper": {
-        "title": "Your events ",
-        "description": "Manage and promote them “all-inclusively” with one finger, with pleasure"
-      },
-      "bottom": {
-        "title": "The world for your events",
-        "description": "Shuffle – social ecosystem 'pocket cities', where your events are the main subject and the main uniqueness the city lives by"
-      }
-    },
-    "download": {
-      "title": "Why do you need all this?",
-      "description": "You are an active user, a businessman, and you are ready to make your events more popular and better through your activity",
-      "link": "download app"
-    }
-  },
-  "event_promo": {
-    "left": {
-      "1": {
-        "title": "Do SOLD OUT",
-        "description": "Working out the NO SHOWS indicator and the exclusive SHOW UP RATIO will allow you to predict turnout and optimize the event"
-      },
-      "2": {
-        "title": "Your  booking your money",
-        "description": "Independent booking system. Different types of tickets and price tags. Ticket validation and a simple refund"
-      },
-      "3": {
-        "title": "Analyze numbers and make decisions",
-        "description": "The world's only unique complete statistics on your events, both individually and overall"
-      },
-      "dark": {
-        "description": "Event promotion in different cities"
-      }
-    },
-    "middle": {
-      "title": "Let your events be the best of the best"
-    },
-    "right": {
-      "1": {
-        "title": "Growth of your media presence",
-        "description": "A public profile is like a portfolio and proof of your expertise, attracting new audience, and growing it"
-      },
-      "2": {
-        "title": "You'll be noticed, and we'll help",
-        "description": "Free rotation in all Shuffle sections, through the unique recommendation system. Automatic placement in profile collections and digests, inside the Shuffle Feed and in external social networks of the project"
-      },
-      "dark": {
-        "description": "Tools for interacting with the audience"
-      }
-    }
-  },
-  "become_pro": {
-    "main": {
-      "title": "How to Become a Pro",
-      "description": "All the functionality that you will see and explore as an ordinary user will become a platform for your events. They will be in rotation, they will be added to favorites, added to the glider, they will be shared and invited and gathered by companies and much more.",
-      "link": "Consultation"
-    },
-    "list": {
-      "item": {
+    "uniqueness_pro": {
+      "slide": {
         "1": {
-          "title": "Download the app and register",
-          "description": "Think about your first cool event, go through a short registration procedure and start gaining popularity"
+          "title": "create and grind an account",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "A public page for growth",
+          "content_description": "Your account – your portfolio. Your events and media hosted here. More activity <span>more users</span><br>. Share the profile to demo your expertise. Attract a new audience from your social media"
         },
         "2": {
-          "title": "You're just a regular user. Take a look around.",
-          "description": "Explore our application, follow the user's convenient path and learn about our features"
+          "title": "create your events",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Post your events ",
+          "content_description": "Create your events with one finger. Elaborate – the more unique your event, the larger its audience. For a <span>better effect</span> work with offers and upsells"
         },
         "3": {
-          "title": "Set up your account",
-          "description": "Go to the Profile, Settings, Edit Profile and select the PRO button"
+          "title": "create your booking",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Sell, earn and validate",
+          "content_description": "Yo own simple, flexible booking sys. Easily segment ticket types, dates, times and prices.<br> Choice of booking: “free”, <span>“money”, “crypto”,</span> “QR  & cash” or third party service integration"
+        },
+        "4": {
+          "title": "level up your event cards",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": " The event card",
+          "content_description": "is yo public mini-site. The more content and activity, the more visitors it will attract. Features, offers, upsells, voices, interviews, respects – everything <span>influences the choice</span> and your success"
+        },
+        "5": {
+          "title": "break down the “no shows”",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "“NO SHOWS” not a problem any more ",
+          "content_description": "Analyse the metrics, use ready-made tools: offers, notifications, reminders, refreshers, surveys, highlights.<br> Unique 'Show Up Ratio' indicates the likelihood of users showing up"
+        },
+        "6": {
+          "title": "communicate",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Attract and chat",
+          "content_description": "Dedicated chat rooms for each event. Share the entire sys or individual chat rooms.<br> Users see who they match with and connect actively, chat and <span>make plans to visit</span> you"
+        },
+        "7": {
+          "title": "be the part of News feed ",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Own content Feed",
+          "content_description": "The Feed reflects the city’s life: news, tips, memes, selections. Your events are also in the feed. People see them, <span>subscribe and come</span> to your events"
+        },
+        "8": {
+          "title": "use your unique statistics",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Unique transparent statistics",
+          "content_description": "Any user activity on your profile or in your event cards is tracked and broadcast to you in a convenient format. Metrics you can <span>analyse and improve</span> visitor satisfaction"
+        }
+      },
+      "slide_mobile": {
+        "1": {
+          "title": "grind an account",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "A public page<br>for growth",
+          "content_description": "Your account – your portfolio. Your events and media hosted here. More activity <span> more users</span>.<br>Share the profile to demo your expertise. Attract a new audience from your social media"
+        },
+        "2": {
+          "title": "create events",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Post your events",
+          "content_description": "Create your events with one finger. Elaborate – the more unique your event, the larger its audience. For a <span>better effect</span> work with offers and upsells"
+        },
+        "3": {
+          "title": "create booking",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Sell, earn and validate",
+          "content_description": "Yo own simple, flexible booking sys. Easily segment ticket types, dates, times and prices.<br> Choice of booking: “free”, <span>“money”, “crypto”,</span> “QR  & cash” or third party service integration"
+        },
+        "4": {
+          "title": "level up cards",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "The event card",
+          "content_description": "is yo public mini-site. The more content and activity, the more visitors it will attract. Features, offers, upsells, voices, interviews, respects – everything <span>influences the choice</span> and your success"
+        },
+        "5": {
+          "title": "attendance",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "“NO SHOWS” not a problem any more ",
+          "content_description": "Analyse the metrics, use ready-made tools: offers, notifications, reminders, refreshers, surveys, highlights.<br> Unique 'Show Up Ratio' indicates the likelihood of users showing up"
+        },
+        "6": {
+          "title": "communicate",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Attract and chat",
+          "content_description": "Dedicated chat rooms for each event. Share the entire sys or individual chat rooms.<br> Users see who they match with and connect actively, chat and <span>make plans to visit</span> you"
+        },
+        "7": {
+          "title": "be the part",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Own content Feed",
+          "content_description": "The Feed reflects the city’s life: news, tips, memes, selections. Your events are also in the feed. People see them, <span>subscribe and come</span> to your events"
+        },
+        "8": {
+          "title": "use stats",
+          "sub_title": "8 steps you should take to be an almighty guru in the world of your city’s events and places ",
+          "content_title": "Unique transparent statistics",
+          "content_description": "Any user activity on your profile or in your event cards is tracked and broadcast to you in a convenient format. Metrics you can <span>analyse and improve</span> visitor satisfaction"
+        }
+      }
+    },
+
+    "event_power": {
+      "main": {
+        "upper": {
+          "title": "Your events ",
+          "description": "Manage and promote them “all-inclusively” with one finger, with pleasure"
+        },
+        "bottom": {
+          "title": "The world for your events",
+          "description": "Shuffle – social ecosystem 'pocket cities', where your events are the main subject and the main uniqueness the city lives by"
+        }
+      },
+      "download": {
+        "title": "Why do you need all this?",
+        "description": "You are an active user, a businessman, and you are ready to make your events more popular and better through your activity",
+        "link": "download app"
+      }
+    },
+    "event_promo": {
+      "left": {
+        "1": {
+          "title": "Do SOLD OUT",
+          "description": "Working out the NO SHOWS indicator and the exclusive SHOW UP RATIO will allow you to predict turnout and optimize the event"
+        },
+        "2": {
+          "title": "Your  booking your money",
+          "description": "Independent booking system. Different types of tickets and price tags. Ticket validation and a simple refund"
+        },
+        "3": {
+          "title": "Analyze numbers and make decisions",
+          "description": "The world's only unique complete statistics on your events, both individually and overall"
+        },
+        "dark": {
+          "description": "Event promotion in different cities"
+        }
+      },
+      "middle": {
+        "title": "Let your events be the best of the best"
+      },
+      "right": {
+        "1": {
+          "title": "Growth of your media presence",
+          "description": "A public profile is like a portfolio and proof of your expertise, attracting new audience, and growing it"
+        },
+        "2": {
+          "title": "You'll be noticed, and we'll help",
+          "description": "Free rotation in all Shuffle sections, through the unique recommendation system. Automatic placement in profile collections and digests, inside the Shuffle Feed and in external social networks of the project"
+        },
+        "dark": {
+          "description": "Tools for interacting with the audience"
+        }
+      }
+    },
+    "become_pro": {
+      "main": {
+        "title": "How to Become a Pro",
+        "description": "All the functionality that you will see and explore as an ordinary user will become a platform for your events. They will be in rotation, they will be added to favorites, added to the glider, they will be shared and invited and gathered by companies and much more.",
+        "link": "Consultation"
+      },
+      "list": {
+        "item": {
+          "1": {
+            "title": "Download the app and register",
+            "description": "Think about your first cool event, go through a short registration procedure and start gaining popularity"
+          },
+          "2": {
+            "title": "You're just a regular user. Take a look around.",
+            "description": "Explore our application, follow the user's convenient path and learn about our features"
+          },
+          "3": {
+            "title": "Set up your account",
+            "description": "Go to the Profile, Settings, Edit Profile and select the PRO button"
+          }
+        }
+      }
+    },
+    "success_pro": {
+      "title": "It all starts with you",
+      "description": "The more unique your product is, the bigger the audience it will reach and the more successful we will be together",
+      "item": {
+        "1": {
+          "title": "INCOME",
+          "description": "We create success together and money – logical result"
+        },
+        "2": {
+          "title": "show up ratio"
+        },
+        "blue": {
+          "title": "new users",
+          "description": "The number of users will grow. We are working on it for you"
         }
       }
     }
   },
-  "success_pro": {
-    "title": "It all starts with you",
-    "description": "The more unique your product is, the bigger the audience it will reach and the more successful we will be together",
-    "item": {
-      "1": {
-        "title": "INCOME",
-        "description": "We create success together and money – logical result"
-      },
-      "2": {
-        "title": "show up ratio"
-      },
-      "blue": {
-        "title": "new users",
-        "description": "The number of users will grow. We are working on it for you"
-      }
-    }
-  },
+
   "faq": {
     "title": "Do you have any other questions?",
     "questions": {

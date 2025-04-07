@@ -194,6 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const uniquenessSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".uniqueness__swiper", {
       spaceBetween: 16,
       slidesPerView: 1.1,
+      slidesOffsetAfter: 30,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
@@ -204,6 +205,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const uniquenessProSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".uniqueness-pro__swiper", {
       spaceBetween: 16,
       slidesPerView: 1.2,
+      slidesOffsetAfter: 30,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
@@ -222,6 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const uniquenessProSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".uniqueness-pro__swiper-inner", {
       spaceBetween: 0,
       slidesPerView: 1.1,
+      slidesOffsetAfter: 30,
       direction: "vertical"
     });
   }
@@ -247,91 +250,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-
-  /*  const allSelects = document.querySelectorAll(".custom-select");
-  let currentLang = "en"; // Язык по умолчанию
-   // Функция загрузки переводов
-  async function loadTranslations(lang) {
-    const response = await fetch(`../locales/${lang}.json`);
-    return await response.json();
-  }
-   // Функция применения переводов
-  async function applyTranslations(lang) {
-    try {
-      const translations = await loadTranslations(lang);
-      document.querySelectorAll("[data-i18n]").forEach((el) => {
-        const key = el.getAttribute("data-i18n");
-        el.textContent = translations[key] || el.textContent;
-      });
-    } catch (error) {
-      console.error("Error loading translations:", error);
-    }
-  }
-   // Инициализация селекта
-  if (allSelects.length > 0) {
-    function toggleSelect(select) {
-      select.classList.toggle("open");
-    }
-     document.addEventListener("click", (event) => {
-      allSelects.forEach((select) => {
-        if (!select.contains(event.target)) {
-          select.classList.remove("open");
-        }
-      });
-    });
-     allSelects.forEach((select) => {
-      const selectedOption = select.querySelector(".selected-option");
-      const radioInputs = select.querySelectorAll('input[type="radio"]');
-      const selectedTextElement = select.querySelector(".selected-text");
-       selectedOption.addEventListener("click", () => {
-        toggleSelect(select);
-      });
-       radioInputs.forEach((input) => {
-        input.addEventListener("change", async () => {
-          const selectedText = input.nextElementSibling.textContent;
-          const selectedValue = input.value;
-           // Обновляем интерфейс селекта
-          selectedTextElement.textContent = selectedText;
-          radioInputs.forEach((radio) => {
-            const optionLabel = radio.closest(".custom-option");
-            optionLabel.style.display =
-              radio.value === selectedValue ? "none" : "flex";
-          });
-           // Меняем язык на сайте
-          currentLang = selectedValue;
-          localStorage.setItem("selectedLang", currentLang);
-          await applyTranslations(currentLang);
-           select.classList.remove("open");
-        });
-      });
-       // Восстановление выбранного языка
-      const savedLang = localStorage.getItem("selectedLang");
-      if (savedLang) {
-        const radioToSelect = select.querySelector(
-          `input[value="${savedLang}"]`
-        );
-        if (radioToSelect) {
-          radioToSelect.checked = true;
-          selectedTextElement.textContent =
-            radioToSelect.nextElementSibling.textContent;
-          currentLang = savedLang;
-        }
-      }
-       // Скрываем выбранный язык в списке
-      const initiallySelected = select.querySelector(
-        'input[type="radio"]:checked'
-      );
-      if (initiallySelected) {
-        initiallySelected.closest(".custom-option").style.display = "none";
-      }
-    });
-  }
-   // Инициализация переводов при загрузке
-  document.addEventListener("DOMContentLoaded", async () => {
-    const savedLang = localStorage.getItem("selectedLang") || "en";
-    await applyTranslations(savedLang);
-  });
-  */
   if (typeof gsap !== "undefined") {
     gsap.registerPlugin(ScrollTrigger);
     if (window.innerWidth > 1024) {

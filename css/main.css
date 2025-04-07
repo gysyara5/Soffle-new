@@ -1333,7 +1333,7 @@ a {
   mix-blend-mode: normal;
   position: relative;
   z-index: 0;
-  min-width: 481px;
+  max-width: 481px;
 }
 .showcase-pro__content-item.yellow .showcase-pro__content-item-wrapper {
   height: 100%;
@@ -1394,7 +1394,11 @@ a {
 }
 .showcase-pro__content-item-title {
   margin: 0;
-  word-break: break-all;
+}
+@media (max-width: 768px) {
+  .showcase-pro__content-item-title {
+    word-break: break-all;
+  }
 }
 .showcase-pro__content-item-desc {
   margin: 0;
@@ -2259,6 +2263,7 @@ a {
   .event-promo__content-middle {
     -ms-grid-column-span: 1;
     grid-column: span 1;
+    padding-top: 36px;
   }
 }
 @media (max-width: 1024px) {
@@ -2738,6 +2743,7 @@ a {
 @media (max-width: 768px) {
   .hero .swiper-slide.slide-2 {
     height: 223px;
+    width: 264px;
   }
 }
 .hero .swiper-slide.slide-3 {
@@ -2815,6 +2821,9 @@ a {
 @media (max-width: 768px) {
   .hero__item-img-container {
     height: 177px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 .hero__item-name {
@@ -3947,6 +3956,15 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
+.search-engine__swiper .swiper-slide-padding.slide-2 {
+  background-color: #e574f8;
+}
+.search-engine__swiper .swiper-slide-padding.slide-2 .search-engine__slide-upper-nav {
+  background: rgba(229, 116, 248, 0.25);
+}
+.search-engine__swiper .swiper-slide-padding.slide-2 .search-engine__slide-upper-link {
+  background: #e574f8;
+}
 .search-engine__slide-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3962,6 +3980,12 @@ a {
   border-radius: 36px;
   height: 483px;
   overflow: hidden;
+}
+.search-engine__slide-content.slide-2 {
+  background-image: url(../img/search-engine-slide-2.png);
+}
+.search-engine__slide-content.slide-2 .swiper-slide-padding {
+  background-color: #e574f8;
 }
 .search-engine__slide-wrapper {
   min-height: 100%;
@@ -4179,6 +4203,12 @@ a {
 
 .eco__wrapper {
   background-color: #fce600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 @media (max-width: 576px) {
   .eco__wrapper {
