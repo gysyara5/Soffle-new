@@ -3,7 +3,7 @@
     "showcase_pro": {
       "blue_card": {
         "title": "Be the PRO user Create and push up your events",
-        "description": "Позвольте людям встречаться и общаться на ваших мероприятиях с уникальной ротацией",
+        "description": "Let people meet and chat at your events with a unique rotation",
         "link": "Consultation",
         "improvements": {
           "1": "Improve your <span>attendance</span> and earn money and crypt",
@@ -214,6 +214,195 @@
           "description": "The number of users will grow. We are working on it for you"
         }
       }
+    }
+  },
+
+  "main": {
+    "showcase": {
+      "blue_item": "A <span class=\"f-bold\"><span class=\"underline\">new</span> generation</span> social ecosystem",
+      "pink_item": "Entertainment and business",
+      "pink_list": {
+        "item1": "Business <span class=\"c-yellow\">&nbsp;events</span>",
+        "item2": "Business <span class=\"c-yellow\">&nbsp;places</span>",
+        "item3": "<span class=\"c-yellow\">Networking</span>"
+      },
+      "video_item": "<span class=\"showcase-bg-name\">Video</span> promo attachment",
+      "yellow_item": {
+        "title": "All cities",
+        "subtitle": "Are in your pocket",
+        "content": {
+          "item1": "unique events",
+          "item2": "unique places",
+          "item3": "You don't need to <span class=\"c-white\">look for</span> anything"
+        },
+        "bottom_text": "You don't need to look for anything"
+      }
+    },
+    "download_app": {
+      "mobile_title": "A <span class=\"f-bold\">unique</span> content recommendation system",
+      "title": "Tired of the tediousб<br /> internet search?",
+      "subtitle": "download the Shuffle app and just choose",
+      "link": "download app"
+    },
+    "visiting": {
+      "title": "Visiting mostly questionable sites",
+      "desc": "With Shuffle you always get guaranteed quality and <span class=\"c-pink\">relevant content</span> with 2 taps",
+      "info": {
+        "white_item": "Leave untested resources in the past",
+        "dark_item": {
+          "text": "Start using a convenient and responsive service",
+          "link": "open Shuffle"
+        }
+      }
+    },
+    "search_engine": {
+      "title": "Scroll search engine results",
+      "desc": "There is no need to search for anything, a unique <span class=\"c-dark-pink\">recommendation system</span> works",
+      "slides": {
+        "slide1": {
+          "title": "Dance Again",
+          "desc": "Unique place for unique people",
+          "links": ["Club", "Cheap", "Opened"],
+          "bottom_title": "Events you dont wanna miss"
+        },
+        "slide2": {
+          "title": "Balance Ayurvedic",
+          "desc": "Hi there, health enthusiasts and seekers...",
+          "links": ["Spa", "Massage", "Opened"],
+          "bottom_title": "Places you 100 % wanna visit"
+        }
+      }
+    },
+    "filters": {
+      "title": "Boring overloaded website filters",
+      "desc": "You can use ready-made smart collections or smart search",
+      "link": "powered by ai"
+    },
+    "eco": {
+      "info": {
+        "title": "Third-party resources",
+        "desc": "The final result and/or experience is likely to be negative",
+        "bottom_desc": "Don't waste your time and energy <br /> in vain"
+      },
+      "right": {
+        "title": "Just <span class=\"c-yellow\">two steps</span> with love",
+        "desc": "Take advantage of unique opportunities",
+        "link": "open Shuffle app"
+      }
+    },
+    "advantages": {
+      "items": [
+        {
+          "title": "No search for places and events",
+          "desc": "you are connected to a unique content generation system – everything is already found"
+        },
+        {
+          "desc": "Quick selections of content for the current activity format"
+        },
+        {
+          "title": "You will always",
+          "desc": "be aware of the entertainment and business life of Dubai and other major cities"
+        },
+        {
+          "desc": "Determine your moods & feelings and get relevant content, here and now"
+        },
+        {
+          "desc": "Overcome loneliness and find friends (entertainment and networking)"
+        },
+        {
+          "desc": "You can take part in the dynamics of the city (create events, suggest places, influence ratings)"
+        },
+        {
+          "desc": "The opportunity to become a popular influencer on a new platform"
+        },
+        {
+          "desc": "Don't need to plan anything, everything is already <span class=\"c-white\">planned and sorted for you</span>. Choose"
+        }
+      ]
+    },
+    "uniqueness": {
+      "items": [
+        {
+          "title": "The world's <span class=\"c-dark-pink\">first</span>",
+          "subtitle": "team of city experts, you can become too",
+          "tag": "Influencer",
+          "big_text": "Unique tools and your subscribers",
+          "desc": "You can become our influencer and earn money just by doing your own things, <span>be needed and useful</span>",
+          "link": "play video"
+        },
+        {
+          "title": "Smart <span class=\"c-green\">currency</span>",
+          "subtitle": "system you can convert into reputation, crypto and points",
+          "tag": "Points",
+          "big_text": "Earn Shuffle points",
+          "desc": "and spend them inside the app and more (crypto?). In fact, a lot will be available <span>without money</span>",
+          "link": "play video"
+        },
+        {
+          "title": "Win <span class=\"c-yellow\">prizes</span>",
+          "subtitle": "pass levels of challenges, explore the city, interesting and useful",
+          "tag": "Challenges",
+          "big_text": "Different interesting challenges",
+          "desc": "You can complete and receive crypto, points, and free tickets, <span>exploring the cities</span>",
+          "link": "play video"
+        },
+        {
+          "title": "Your <span class=\"c-blue\">role-playing</span>",
+          "subtitle": "in Shuffle app gets you various discounts",
+          "tag": "Level up",
+          "big_text": "Upgrade your character",
+          "desc": "and get a Shuffle cards – discounts on affiliate content. you just need to <span>use Shuffle. Eazy</span>",
+          "link": "play video"
+        },
+        {
+          "title": "Drama-free <span class=\"c-yellow\">social</span>",
+          "subtitle": "zone, you can find mates and hangouts",
+          "tag": "Chats",
+          "big_text": "Comfortable communication",
+          "desc": "centred around content. Chat rooms, invitations, ind chats – <span>everything is connected</span> to events and places",
+          "link": "play video"
+        },
+        {
+          "title": "City <span class=\"c-lilac\">live</span> channel",
+          "subtitle": "combining news, events, teasers, hot picks, subscriptions",
+          "tag": "News Feed",
+          "big_text": "Be aware of everything",
+          "desc": "happens in the city from new laws to parties, from digests to rules, <span>from words to hearts</span>",
+          "link": "play video"
+        },
+        {
+          "title": "Shuffle <span class=\"c-orange\">people</span>",
+          "subtitle": "form an exclusive club of quality interactions",
+          "tag": "Club",
+          "big_text": "Special events and care",
+          "desc": "with quality mark guarantees excellence for both partners and users. Events, hot drops, support. <span>Never on your own</span>",
+          "link": "play video"
+        }
+      ]
+    },
+    "marquee_section": {
+      "title": "Extraordinary unique system",
+      "subtitle": "of psycho / physical analysis, recommendations and generation of various scenarios for users",
+      "items": [
+        "Have a pet",
+        "<img src=\"./img/baloon.svg\" alt=\"\" />Family fan",
+        "With children",
+        "Loving spouses",
+        "Photo zones",
+        "Amusement rides for kids and adults",
+        "Researcher",
+        "<img src=\"./img/thunder-icon.svg\" alt=\"\" />Active tiger",
+        "Like extreme",
+        "Hedonist",
+        "Body of water",
+        "<img src=\"./img/wood.svg\" alt=\"\" />City park",
+        "BBQ and picnic areas",
+        "Love nature",
+        "Like beautiful photos",
+        "Wine list",
+        "Children menu",
+        "<img src=\"./img/KnifeAndFork2.svg\" alt=\"\" />Restaurant"
+      ]
     }
   },
 

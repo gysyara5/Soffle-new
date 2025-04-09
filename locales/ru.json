@@ -215,7 +215,89 @@
       }
     }
   },
-  
+  "main_page": {
+    "showcase": {
+      "blue": {
+        "title": " Социальная экосистема <span class=f-bold><span class=underline>нового</span> </span>  поколения</span>"
+      },
+      "pink": {
+        "title": "Развлечения и бизнес",
+        "list": {
+          "1": " Business <span class=c-yellow>&nbsp;events</span>",
+          "2": " Business <span class=c-yellow>&nbsp;events</span>",
+          "3": " Business <span class=c-yellow>&nbsp;events</span>"
+        }
+      },
+      "video": {
+        "title": "<span class=showcase-bg-name>Видео</span> промо вложение</span>",
+        "link": "Воспроизведение видео"
+      },
+      "yellow": {
+        "title": "Все города",
+        "subtitle": "Are in your pocket",
+        "content": {
+          "1": "unique events",
+          "2": "unique places",
+          "3": "You don't need to <span class='c-white'>look for</span> anything"
+        },
+        "bottom_text": "You don't need to look for anything"
+      }
+    },
+    "download": {
+      "mobile_title": "ЕУ <span class='f-bold'>unique</span> content recommendation system",
+      "title": "Tired of the tedious<br />internet search?",
+      "subtitle": "download the Shuffle app and just choose",
+      "button": "download app"
+    },
+    "visiting": {
+      "title": "VTET",
+      "description": "With Shuffle you always get guaranteed quality and <span class='c-pink'>relevant content</span> with 2 taps",
+      "info": {
+        "1": "Leave untested resources in the past",
+        "2": "Start using a convenient and responsive service",
+        "link": "open Shuffle"
+      }
+    },
+    "search": {
+      "title": "Scroll search engine results",
+      "description": "There is no need to search for anything, a unique <span class='c-dark-pink'>recommendation system</span> works",
+      "slides": {
+        "1": {
+          "title": "Dance Again",
+          "subtitle": "Unique place for unique people",
+          "tags": {
+            "1": "Club",
+            "2": "Cheap",
+            "3": "Opened"
+          },
+          "bottom_title": "Events you dont wanna miss"
+        },
+        "2": {
+          "title": "Balance Ayurvedic",
+          "subtitle": "Hi there, health enthusiasts and seekers...",
+          "tags": {
+            "1": "Spa",
+            "2": "Massage",
+            "3": "Opened"
+          },
+          "bottom_title": "Places you 100 % wanna visit"
+        }
+      }
+    },
+    "filters": {
+      "title": "Boring overloaded website filters",
+      "description": "You can use ready-made smart collections or smart search",
+      "link": "powered by ai"
+    },
+    "eco": {
+      "info_title": "Third-party resources",
+      "info_description": "The final result and/or experience is likely to be negative",
+      "bottom_description": "Don't waste your time and energy <br /> in vain",
+      "right_title": "Just <span class='c-yellow'>two steps</span> with love",
+      "right_description": "Take advantage of unique opportunities",
+      "right_link": "open Shuffle app"
+    }
+  },
   "faq": {
     "title": "У вас есть еще какие-нибудь вопросы?",
     "questions": {

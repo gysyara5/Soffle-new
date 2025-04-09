@@ -2615,7 +2615,8 @@ a {
     grid-row: unset;
   }
   .success-pro__content-item--blue .success-pro__content-item-img img {
-    width: auto;
+    max-width: 242px;
+    width: 100%;
   }
 }
 .success-pro__content-item--default {

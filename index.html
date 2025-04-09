@@ -44,9 +44,13 @@
               >pro</a
             >
           </li>
-          <li class="menu__item"><a href="#" class="menu__link" data-i18n="header_item-2">org</a></li>
           <li class="menu__item">
-            <a href="#" class="menu__link" data-i18n="header_item-3">partners</a>
+            <a href="#" class="menu__link" data-i18n="header_item-2">org</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link" data-i18n="header_item-3"
+              >partners</a
+            >
           </li>
         </ul>
         <a href="#" class="header__user user-account mobile"
@@ -84,10 +88,6 @@
           <label class="custom-option">
             <input type="radio" name="language" value="ru" />
             <span class="custom-option-text">RU</span>
-          </label>
-          <label class="custom-option">
-            <input type="radio" name="language" value="ar" />
-            <span class="custom-option-text">AR</span>
           </label>
         </div>
       </div>
@@ -178,7 +178,7 @@
           <div class="container">
             <div class="showcase__content">
               <div class="showcase__item blue">
-                <span class="showcase__name"
+                <span class="showcase__name" data-i18n="main_page.showcase.blue.title"
                   >A
                   <span class="f-bold"
                     ><span class="underline">new</span> generation</span
@@ -188,51 +188,50 @@
                 <img src="./img/showcase-blue-img.webp" alt="" />
               </div>
               <div class="showcase__item pink">
-                <span class="showcase__name">Entertainment and business</span>
+                <span class="showcase__name">Развлечения и бизнес</span>
                 <ul class="showcase__list list-reset">
                   <li class="showcase__list-item">
-                    Business <span class="c-yellow">&nbsp;events</span>
+                    Деловые  <span class="c-yellow">&nbsp;мероприятия</span>
                   </li>
                   <li class="showcase__list-item">
-                    Business <span class="c-yellow">&nbsp;places</span>
+                    Деловые <span class="c-yellow">&nbsp;места</span>
                   </li>
                   <li class="showcase__list-item">
-                    <span class="c-yellow"> Networking</span>
+                    <span class="c-yellow"> Сетевой</span>
                   </li>
                 </ul>
                 <img src="./img/arrow-rt.svg" alt="" />
               </div>
               <div class="showcase__item video">
-                <span class="showcase__name"
+                <span class="showcase__name" data-i18n="main_page.showcase.video.title"
                   ><span class="showcase-bg-name">Video</span> promo
                   attachment</span
                 >
                 <a href="#" class="showcase__play play-video"
-                  >Play video<img src="./img/play-icon.svg" alt=""
+                  ><span data-i18n="main_page.showcase.video.link">Play video</span> <img src="./img/play-icon.svg" alt=""
                 /></a>
               </div>
               <div class="showcase__item yellow">
-                <span class="showcase__name">All cities</span>
-                <span class="showcase__sub-name">Are in your pocket</span>
+                <span class="showcase__name" data-i18n="main_page.showcase.yellow.title">All cities</span>
+                <span class="showcase__sub-name" data-i18n="main_page.showcase.yellow.subtitle">Are in your pocket</span>
                 <div class="showcase__item-content">
                   <div class="showcase__item-content-container">
                     <img src="./img/duo-stars.svg" alt="" />
-                    unique events
+                    <span data-i18n="main_page.showcase.yellow.content.1">unique events</span>
                   </div>
                   <div class="showcase__item-content-container">
                     <img src="./img/duostone.svg" alt="" />
-                    unique places
+                    <span data-i18n="main_page.showcase.yellow.content.2">unique places</span>
                   </div>
                   <div class="showcase__item-content-container">
-                    <span class="showcase__item-content-text"
-                      >You don't need to
-                      <span class="c-white">look for</span> anything</span
-                    >
+                    <span class="showcase__item-content-text" data-i18n="main_page.showcase.yellow.content.3">
+                      You don't need to <span class="c-white">look for</span> anything
+                    </span>
                   </div>
                 </div>
-                <span class="showcase__item-bottom-text"
-                  >You don't need to look for anything</span
-                >
+                <span class="showcase__item-bottom-text" data-i18n="main_page.showcase.yellow.bottom_text">
+                  You don't need to look for anything
+                </span>
                 <img src="./img/showcase-yellow-b.webp" alt="" />
               </div>
             </div>
@@ -246,28 +245,24 @@
                 <div class="download-app vertical-scroll-section">
                   <div class="download-app__wrapper wrapper-scroll-height">
                     <div class="container">
-                      <span class="download-app__title-mobile"
-                        >A <span class="f-bold">unique</span> content
-                        recommendation system</span
-                      >
+                      <span class="download-app__title-mobile" data-i18n="main_page.download.mobile_title">
+                        A <span class="f-bold">unique</span> content recommendation system
+                      </span>
                       <div class="download-app__main-img-container">
                         <picture class="download-app__main-img">
-                          <source
-                            srcset="./img/download-app-1.webp"
-                            media="(min-width: 1024px)"
-                          />
+                          <source srcset="./img/download-app-1.webp" media="(min-width: 1024px)" />
                           <img src="./img/download-app-1-mob.webp" alt="" />
                         </picture>
                       </div>
 
-                      <h2 class="download-app__title">
-                        Tired of the tediousб<br />
+                      <h2 class="download-app__title" data-i18n="main_page.download.title">
+                        Tired of the tedious<br />
                         internet search?
                       </h2>
-                      <span class="download-app__subtitle"
-                        >download the Shuffle app and just choose</span
-                      >
-                      <a href="#" class="download-app__link">download app</a>
+                      <span class="download-app__subtitle" data-i18n="main_page.download.subtitle">
+                        download the Shuffle app and just choose
+                      </span>
+                      <a href="#" class="download-app__link" data-i18n="main_page.download.button">download app</a>
                     </div>
                   </div>
                 </div>
@@ -289,10 +284,10 @@
                           </div>
                         </div>
                         <div class="visiting__text">
-                          <h2 class="visiting__title">
+                          <h2 class="visiting__title" data-i18n="main_page.visiting.title">
                             Visiting mostly questionable sites
                           </h2>
-                          <p class="visiting__desc">
+                          <p class="visiting__desc" data-i18n="main_page.visiting.description">
                             With Shuffle you always get guaranteed quality and
                             <span class="c-pink">relevant content</span>
                             with 2 taps
@@ -300,19 +295,17 @@
                           <div class="visiting__info">
                             <div class="visiting__info-item white">
                               <img src="./img/visiting-item-img.webp" alt="" />
-                              <p class="visiting__info-item-desc">
+                              <p class="visiting__info-item-desc" data-i18n="main_page.visiting.info.1">
                                 Leave untested resources in the past
                               </p>
                             </div>
                             <div class="visiting__info-item dark">
-                              <p class="visiting__info-item-desc big">
+                              <p class="visiting__info-item-desc big" data-i18n="main_page.visiting.info.2">
                                 Start using a convenient and responsive service
                               </p>
-                              <a
-                                href="#"
-                                class="visiting__info-item-link hover-yellow-in-white"
-                                >open Shuffle</a
-                              >
+                              <a href="#" class="visiting__info-item-link hover-yellow-in-white" data-i18n="main_page.visiting.info.link">
+                                open Shuffle
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -328,14 +321,12 @@
                     <div class="container">
                       <div class="search-engine__content">
                         <div class="search-engine__info">
-                          <h2 class="search-engine__title">
+                          <h2 class="search-engine__title" data-i18n="main_page.search.title">
                             Scroll search engine results
                           </h2>
-                          <p class="search-engine__desc">
+                          <p class="search-engine__desc" data-i18n="main_page.search.description">
                             There is no need to search for anything, a unique
-                            <span class="c-dark-pink"
-                              >recommendation system</span
-                            >
+                            <span class="c-dark-pink">recommendation system</span>
                             works
                           </p>
                         </div>
@@ -346,46 +337,32 @@
                                 <div class="swiper-slide-padding">
                                   <div class="search-engine__slide-wrapper">
                                     <div class="search-engine__slide-content">
-                                      <div
-                                        class="search-engine__slide-upper-nav"
-                                      >
-                                        <span
-                                          class="search-engine__slide-upper-title"
-                                          >Dance Again</span
-                                        >
-                                        <span
-                                          class="search-engine__slide-upper-desc"
-                                          >Unique place for unique people</span
-                                        >
-                                        <div
-                                          class="search-engine__slide-upper-links"
-                                        >
-                                          <a
-                                            href="#"
-                                            class="search-engine__slide-upper-link"
-                                            >Club</a
-                                          >
-                                          <a
-                                            href="#"
-                                            class="search-engine__slide-upper-link"
-                                            >Cheap</a
-                                          >
-                                          <a
-                                            href="#"
-                                            class="search-engine__slide-upper-link"
-                                            >Opened</a
-                                          >
+                                      <div class="search-engine__slide-upper-nav">
+                                        <span class="search-engine__slide-upper-title" data-i18n="main_page.search.slides.1.title">
+                                          Dance Again
+                                        </span>
+                                        <span class="search-engine__slide-upper-desc" data-i18n="main_page.search.slides.1.subtitle">
+                                          Unique place for unique people
+                                        </span>
+                                        <div class="search-engine__slide-upper-links">
+                                          <a href="#" class="search-engine__slide-upper-link" data-i18n="main_page.search.slides.1.tags.1">
+                                            Club
+                                          </a>
+                                          <a href="#" class="search-engine__slide-upper-link" data-i18n="main_page.search.slides.1.tags.2">
+                                            Cheap
+                                          </a>
+                                          <a href="#" class="search-engine__slide-upper-link" data-i18n="main_page.search.slides.1.tags.3">
+                                            Opened
+                                          </a>
                                         </div>
                                       </div>
-                                      <div
-                                        class="search-engine__slide-bottom-nav"
-                                      >
+                                      <div class="search-engine__slide-bottom-nav">
                                         <img src="./img/img-nav.webp" alt="" />
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <h3 class="search-engine__slide-title">
+                                <h3 class="search-engine__slide-title" data-i18n="main_page.search.slides.1.bottom_title">
                                   Events you dont wanna miss
                                 </h3>
                               </div>
@@ -393,46 +370,32 @@
                                 <div class="swiper-slide-padding slide-2">
                                   <div class="search-engine__slide-wrapper">
                                     <div class="search-engine__slide-content slide-2">
-                                      <div
-                                        class="search-engine__slide-upper-nav"
-                                      >
-                                        <span
-                                          class="search-engine__slide-upper-title"
-                                          >Balance Ayurvedic</span
-                                        >
-                                        <span
-                                          class="search-engine__slide-upper-desc"
-                                          >Hi there, health enthusiasts and seekers...</span
-                                        >
-                                        <div
-                                          class="search-engine__slide-upper-links"
-                                        >
-                                          <a
-                                            href="#"
-                                            class="search-engine__slide-upper-link"
-                                            >Spa</a
-                                          >
-                                          <a
-                                            href="#"
-                                            class="search-engine__slide-upper-link"
-                                            >Massage</a
-                                          >
-                                          <a
-                                            href="#"
-                                            class="search-engine__slide-upper-link"
-                                            >Opened</a
-                                          >
+                                      <div class="search-engine__slide-upper-nav">
+                                        <span class="search-engine__slide-upper-title" data-i18n="main_page.search.slides.2.title">
+                                          Balance Ayurvedic
+                                        </span>
+                                        <span class="search-engine__slide-upper-desc" data-i18n="main_page.search.slides.2.subtitle">
+                                          Hi there, health enthusiasts and seekers...
+                                        </span>
+                                        <div class="search-engine__slide-upper-links">
+                                          <a href="#" class="search-engine__slide-upper-link" data-i18n="main_page.search.slides.2.tags.1">
+                                            Spa
+                                          </a>
+                                          <a href="#" class="search-engine__slide-upper-link" data-i18n="main_page.search.slides.2.tags.2">
+                                            Massage
+                                          </a>
+                                          <a href="#" class="search-engine__slide-upper-link" data-i18n="main_page.search.slides.2.tags.3">
+                                            Opened
+                                          </a>
                                         </div>
                                       </div>
-                                      <div
-                                        class="search-engine__slide-bottom-nav"
-                                      >
+                                      <div class="search-engine__slide-bottom-nav">
                                         <img src="./img/img-nav.webp" alt="" />
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <h3 class="search-engine__slide-title">
+                                <h3 class="search-engine__slide-title" data-i18n="main_page.search.slides.2.bottom_title">
                                   Places you 100 % wanna visit
                                 </h3>
                               </div>
@@ -441,8 +404,6 @@
                           <div class="swiper-scrollbar-engine"></div>
                           <div class="swiper-button-prev"></div>
                           <div class="swiper-button-next"></div>
-
-
                         </div>
                       </div>
                     </div>
@@ -454,18 +415,16 @@
                   <div class="filters__wrapper wrapper-scroll-height">
                     <div class="aura-pink"></div>
                     <div class="container">
-                      <div
-                        class="filters__content double-scroll-content-second"
-                      >
+                      <div class="filters__content double-scroll-content-second">
                         <div class="filters__info">
-                          <h3 class="filters__title">
+                          <h3 class="filters__title" data-i18n="main_page.filters.title">
                             Boring overloaded website filters
                           </h3>
-                          <p class="filters__desc">
+                          <p class="filters__desc" data-i18n="main_page.filters.description">
                             You can use ready-made smart collections or smart
                             search
                           </p>
-                          <a href="#" class="filters__link">powered by ai</a>
+                          <a href="#" class="filters__link" data-i18n="main_page.filters.link">powered by ai</a>
                         </div>
                         <div class="vertical-scroll aura">
                           <div class="vertical-wrapper">
@@ -489,34 +448,32 @@
                       <div class="eco__content">
                         <div class="eco__info">
                           <div class="eco__info-upper">
-                            <h3 class="eco__info-title">
+                            <h3 class="eco__info-title" data-i18n="main_page.eco.info_title">
                               Third-party resources
                             </h3>
-                            <p class="eco__info-desc">
+                            <p class="eco__info-desc" data-i18n="main_page.eco.info_description">
                               The final result and/or experience is likely to be
                               negative
                             </p>
                           </div>
                           <div class="eco__bottom">
-                            <p class="eco__bottom-desc">
+                            <p class="eco__bottom-desc" data-i18n="main_page.eco.bottom_description">
                               Don't waste your time and energy <br />
                               in vain
                             </p>
                           </div>
                         </div>
                         <div class="eco__right">
-                          <h3 class="eco__right-title">
+                          <h3 class="eco__right-title" data-i18n="main_page.eco.right_title">
                             Just
                             <span class="c-yellow">two steps</span> with love
                           </h3>
-                          <p class="eco__right-desc">
+                          <p class="eco__right-desc" data-i18n="main_page.eco.right_description">
                             Take advantage of unique opportunities
                           </p>
-                          <a
-                            href="#"
-                            class="eco__right-link hover-white-in-yellow"
-                            >open Shuffle app</a
-                          >
+                          <a href="#" class="eco__right-link hover-white-in-yellow" data-i18n="main_page.eco.right_link">
+                            open Shuffle app
+                          </a>
                         </div>
                       </div>
                     </div>
