@@ -216,6 +216,18 @@
     }
   },
   "main_page": {
+    "hero":{
+      "slide":{
+        "1":"Дубай",
+        "2":"Пхункет",
+        "3":"Эр-Рияд",
+        "4":"Алматы",
+        "last":{
+          "name":"Москва",
+          "text":"Скоро"
+        }
+      }
+    },
     "showcase": {
       "blue": {
         "title": " Социальная экосистема <span class=f-bold><span class=underline>нового</span> </span>  поколения</span>"
@@ -234,68 +246,218 @@
       },
       "yellow": {
         "title": "Все города",
-        "subtitle": "Are in your pocket",
+        "subtitle": "Они у тебя в кармане",
         "content": {
-          "1": "unique events",
-          "2": "unique places",
-          "3": "You don't need to <span class='c-white'>look for</span> anything"
+          "1": "уникальные события",
+          "2": "уникальные места",
+          "3": "Вам не нужно <span class='c-white> искать</span> что-либо"
         },
-        "bottom_text": "You don't need to look for anything"
+        "bottom_text": "Вам не нужно искать что-либо"
       }
     },
     "download": {
-      "mobile_title": "ЕУ <span class='f-bold'>unique</span> content recommendation system",
-      "title": "Tired of the tedious<br />internet search?",
-      "subtitle": "download the Shuffle app and just choose",
-      "button": "download app"
+      "mobile_title": "<span class='f-bold'>уникальная</span> система рекомендаций контента",
+      "title": "Устали от утомительного<br />поиска в интернете?",
+      "subtitle": "скачайте приложение Shuffle и просто выбирайте",
+      "button": "скачать приложение"
     },
     "visiting": {
-      "title": "VTET",
-      "description": "With Shuffle you always get guaranteed quality and <span class='c-pink'>relevant content</span> with 2 taps",
+      "title": "Посещение в основном сомнительных сайтов",
+      "description": "С Shuffle вы всегда получаете гарантированно качественный и <span class='c-pink'>релевантный контент</span> в 2 касания",
       "info": {
-        "1": "Leave untested resources in the past",
-        "2": "Start using a convenient and responsive service",
-        "link": "open Shuffle"
+        "1": "Оставьте непроверенные ресурсы в прошлом",
+        "2": "Начните пользоваться удобным и отзывчивым сервисом",
+        "link": "открыть Shuffle"
       }
     },
     "search": {
-      "title": "Scroll search engine results",
-      "description": "There is no need to search for anything, a unique <span class='c-dark-pink'>recommendation system</span> works",
+      "title": "Прокрутка результатов поисковой системы",
+      "description": "Нет необходимости что-то искать, работает уникальная <span class='c-dark-pink'>система рекомендаций</span>",
       "slides": {
         "1": {
           "title": "Dance Again",
-          "subtitle": "Unique place for unique people",
+          "subtitle": "Уникальное место для уникальных людей",
           "tags": {
-            "1": "Club",
-            "2": "Cheap",
-            "3": "Opened"
+            "1": "Клуб",
+            "2": "Недорого",
+            "3": "Открыто"
           },
-          "bottom_title": "Events you dont wanna miss"
+          "bottom_title": "События, которые вы не хотите пропустить"
         },
         "2": {
           "title": "Balance Ayurvedic",
-          "subtitle": "Hi there, health enthusiasts and seekers...",
+          "subtitle": "Привет, энтузиасты здорового образа жизни...",
           "tags": {
-            "1": "Spa",
-            "2": "Massage",
-            "3": "Opened"
+            "1": "Спа",
+            "2": "Массаж",
+            "3": "Открыто"
           },
-          "bottom_title": "Places you 100 % wanna visit"
+          "bottom_title": "Места, которые вы 100% хотите посетить"
         }
       }
     },
     "filters": {
-      "title": "Boring overloaded website filters",
-      "description": "You can use ready-made smart collections or smart search",
-      "link": "powered by ai"
+      "title": "Скучные перегруженные фильтры сайтов",
+      "description": "Вы можете использовать готовые умные коллекции или умный поиск",
+      "link": "работает на ИИ"
     },
     "eco": {
-      "info_title": "Third-party resources",
-      "info_description": "The final result and/or experience is likely to be negative",
-      "bottom_description": "Don't waste your time and energy <br /> in vain",
-      "right_title": "Just <span class='c-yellow'>two steps</span> with love",
-      "right_description": "Take advantage of unique opportunities",
-      "right_link": "open Shuffle app"
+      "info_title": "Сторонние ресурсы",
+      "info_description": "Конечный результат и/или опыт, скорее всего, будут негативными",
+      "bottom_description": "Не тратьте свое время и энергию <br /> впустую",
+      "right_title": "Всего <span class='c-yellow'>два шага</span> с любовью",
+      "right_description": "Воспользуйтесь уникальными возможностями",
+      "right_link": "открыть приложение Shuffle"
+    },
+    "advantages": {
+      "item": {
+        "1": {
+          "title": "Не нужно искать места и события",
+          "description": "вы подключены к уникальной системе генерации контента — всё уже найдено"
+        },
+        "2": {
+          "description": "Быстрый подбор контента под текущий формат активности"
+        },
+        "3": {
+          "title": "Вы всегда будете",
+          "description": "в курсе развлекательной и деловой жизни Дубая и других крупных городов"
+        },
+        "4": {
+          "description": "Определяйте своё настроение и получайте релевантный контент здесь и сейчас"
+        },
+        "5": {
+          "description": "Преодолейте одиночество и найдите друзей (развлечения и нетворкинг)"
+        },
+        "6": {
+          "description": "Вы можете участвовать в динамике города (создавать события, предлагать места, влиять на рейтинги)"
+        },
+        "7": {
+          "description": "Возможность стать популярным инфлюенсером на новой платформе"
+        },
+        "dark": {
+          "description": "Не нужно ничего планировать, всё уже <span class='c-white'>запланировано и отсортировано за вас</span>. Выбирайте"
+        }
+      }
+    },
+    "uniqueness": {
+      "desktop": {
+        "slide": {
+          "1": {
+            "title": "Первая в <span class='c-dark-pink'>мире</span>",
+            "subtitle": "команда городских экспертов, вы тоже можете стать частью",
+            "tag": "Инфлюенсер",
+            "big_text": "Уникальные инструменты и ваши подписчики",
+            "description": "Вы можете стать нашим инфлюенсером и зарабатывать, просто занимаясь своими делами, <span>будьте нужными и полезными</span>"
+          },
+          "2": {
+            "title": "Умная <span class='c-green'>валюта</span>",
+            "subtitle": "система, которую можно конвертировать в репутацию, криптовалюту и баллы",
+            "tag": "Баллы",
+            "big_text": "Зарабатывайте баллы Shuffle",
+            "description": "и тратьте их внутри приложения и не только (криптовалюта?). Фактически, многое будет доступно <span>без денег</span>"
+          },
+          "3": {
+            "title": "Выигрывайте <span class='c-yellow'>призы</span>",
+            "subtitle": "проходите уровни челленджей, исследуйте город, интересно и полезно",
+            "tag": "Челленджи",
+            "big_text": "Разные интересные челленджи",
+            "description": "Вы можете выполнять и получать криптовалюту, баллы и бесплатные билеты, <span>исследуя города</span>"
+          },
+          "4": {
+            "title": "Ваша <span class='c-blue'>ролевая система</span>",
+            "subtitle": "в приложении Shuffle дает вам различные скидки",
+            "tag": "Повышение уровня",
+            "big_text": "Прокачивайте своего персонажа",
+            "description": "и получайте карты Shuffle — скидки на партнерский контент. Вам просто нужно <span>использовать Shuffle. Легко</span>"
+          },
+          "5": {
+            "title": "Зона без драмы <span class='c-yellow'>для общения</span>",
+            "subtitle": "здесь вы можете найти компанию и тусовки",
+            "tag": "Чаты",
+            "big_text": "Комфортное общение",
+            "description": "сосредоточенное вокруг контента. Чат-румы, приглашения, личные чаты — <span>всё связано</span> с событиями и местами"
+          },
+          "6": {
+            "title": "Городской <span class='c-lilac'>живой</span> канал",
+            "subtitle": "объединяющий новости, события, тизеры, горячие подборки, подписки",
+            "tag": "Лента новостей",
+            "big_text": "Будьте в курсе всего",
+            "description": "что происходит в городе — от новых законов до вечеринок, от дайджестов до правил, <span>от слов к сердцам</span>"
+          },
+          "7": {
+            "title": "Люди Shuffle <span class='c-orange'>образуют</span>",
+            "subtitle": "эксклюзивный клуб качественного взаимодействия",
+            "tag": "Клуб",
+            "big_text": "Особые мероприятия и забота",
+            "description": "с гарантией качества как для партнеров, так и для пользователей. События, горячие предложения, поддержка. <span>Вы никогда не одни</span>"
+          },
+          "link": "смотреть видео"
+        }
+      }
+    },
+    "marquee": {
+      "title": "Экстраординарная уникальная система",
+      "subtitle": "психофизиологического анализа, рекомендаций и генерации различных сценариев для пользователей",
+      "lines": {
+        "first": {
+          "item": {
+            "1": "Есть питомец",
+            "2": "Семьянин",
+            "3": "С детьми",
+            "4": "Влюбленные пары",
+            "5": "Фото-зоны",
+            "6": "Аттракционы для детей и взрослых",
+            "7": "Исследователь"
+          }
+        },
+        "second": {
+          "item": {
+            "1": "Активный тигр",
+            "2": "Люблю экстрим",
+            "3": "Люблю экстрим",
+            "4": "Гедонист",
+            "5": "Водоем",
+            "6": "Городской парк",
+            "7": "Зоны для BBQ и пикников",
+            "8": "Люблю природу"
+          }
+        },
+        "third": {
+          "item": {
+            "1": "Есть питомец",
+            "2": "Семьянин",
+            "3": "С детьми",
+            "4": "Влюбленные пары",
+            "5": "Фото-зоны",
+            "6": "Аттракционы для детей и взрослых",
+            "7": "Исследователь"
+          }
+        },
+        "fourth": {
+          "item": {
+            "1": "Активный тигр",
+            "2": "Люблю экстрим",
+            "3": "Люблю экстрим",
+            "4": "Гедонист",
+            "5": "Водоем",
+            "6": "Городской парк",
+            "7": "Зоны для BBQ и пикников",
+            "8": "Люблю природу"
+          }
+        },
+        "fifth": {
+          "item": {
+            "1": "Есть питомец",
+            "2": "Семьянин",
+            "3": "С детьми",
+            "4": "Влюбленные пары",
+            "5": "Фото-зоны",
+            "6": "Аттракционы для детей и взрослых",
+            "7": "Исследователь",
+            "8": "Ресторан"
+          }
+        }
+      }
     }
   },
   "faq": {
