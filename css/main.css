@@ -2677,9 +2677,11 @@ a {
   }
 }
 .hero .swiper-slide {
-  -webkit-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  transition: 0.5s ease;
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+  transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+  -o-transition: transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease, -webkit-transform 0.5s ease;
 }
 .hero .swiper-slide:hover {
   -webkit-transform: scale(1.05);
@@ -5261,4 +5263,3 @@ a {
     margin-top: 36px;
   }
 }
-/*# sourceMappingURL=main.css.map */
