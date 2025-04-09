@@ -2776,6 +2776,9 @@ a {
     height: 223px;
   }
 }
+.hero .swiper-slide.slide-5.last {
+  pointer-events: none;
+}
 .hero .swiper-slide.slide-5.last:hover {
   all: unset;
 }
