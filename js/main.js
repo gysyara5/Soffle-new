@@ -176,20 +176,23 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
-  if (document.querySelector(".hero__swiper")) {
-    const heroSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".hero__swiper", {
-      direction: "horizontal",
-      spaceBetween: 14,
-      scrollbar: {
-        el: ".swiper-scrollbar",
-        draggable: true,
-        hide: false
-      },
-      autoHeight: false,
-      slidesPerView: "auto",
-      freeMode: true
-    });
-  }
+
+  /*   if (document.querySelector(".hero__swiper")) {
+      const heroSwiper = new Swiper(".hero__swiper", {
+        direction: "horizontal",
+        spaceBetween: 14,
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          draggable: true,
+          hide: false,
+        },
+        autoHeight: false,
+        slidesPerView: "auto",
+        freeMode: true,
+      });
+  
+    } */
+
   if (document.querySelector(".uniqueness__swiper")) {
     const uniquenessSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".uniqueness__swiper", {
       spaceBetween: 16,
@@ -644,6 +647,21 @@ document.addEventListener("DOMContentLoaded", async () => {
   console.log("Current language:", currentLang);
   console.log("Elements with data-i18n:", document.querySelectorAll("[data-i18n]").length);
 });
+window.onload = function () {
+  const heroSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".hero__swiper", {
+    direction: "horizontal",
+    spaceBetween: 14,
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      draggable: true,
+      hide: false
+    },
+    autoHeight: false,
+    slidesPerView: "auto",
+    freeMode: true
+  });
+  heroSwiper.update();
+};
 
 /***/ }),
 
@@ -13426,3 +13444,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
+//# sourceMappingURL=main.js.map
