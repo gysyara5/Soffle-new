@@ -238,8 +238,8 @@
         "title": "Entertainment and business",
         "list": {
           "1": "Business <span class='c-yellow'>&nbsp;events</span>",
-          "2": "Business <span class='c-yellow'>&nbsp;events</span>",
-          "3": "Business <span class='c-yellow'>&nbsp;events</span>"
+          "2": "Business <span class='c-yellow'>&nbsp;places</span>",
+          "3": "<span class='c-yellow'>Networking</span>"
         }
       },
       "video": {
@@ -250,8 +250,8 @@
         "title": "All cities",
         "subtitle": "They're in your pocket",
         "content": {
-          "1": "unique events",
-          "2": "unique places",
+          "1": "unique<br> events",
+          "2": "unique<br> places",
           "3": "You don't need to <span class='c-white'>search</span> for anything"
         },
         "bottom_text": "You don't need to search for anything"

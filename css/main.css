@@ -3400,7 +3400,7 @@ a {
   grid-template-columns: 1fr 1fr;
   gap: 8px;
   justify-items: center;
-  max-width: 245px;
+  /*  max-width: 245px; */
   margin: 0 auto;
 }
 @media (max-width: 1024px) {
@@ -3417,7 +3417,7 @@ a {
   line-height: 125%;
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
-  padding: 20px;
+  padding: 23px 27px;
   background: rgba(255, 255, 255, 0.42);
   border-radius: 36px;
   -webkit-box-align: center;

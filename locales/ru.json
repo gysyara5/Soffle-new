@@ -235,9 +235,9 @@
       "pink": {
         "title": "Развлечения и бизнес",
         "list": {
-          "1": " Business <span class=c-yellow>&nbsp;events</span>",
-          "2": " Business <span class=c-yellow>&nbsp;events</span>",
-          "3": " Business <span class=c-yellow>&nbsp;events</span>"
+          "1": "Бизнес <span class=c-yellow>&nbsp;события</span>",
+          "2": "Бизнес <span class=c-yellow>&nbsp;места</span>",
+          "3": "<span class=c-yellow>Сетевой</span>"
         }
       },
       "video": {
